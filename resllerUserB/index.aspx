@@ -13,7 +13,7 @@
 <!--end::Head-->
 <!--begin::Body-->
 <body id="kt_app_body" data-kt-app-layout="dark-sidebar" data-kt-app-header-fixed="true" data-kt-app-sidebar-enabled="true" data-kt-app-sidebar-fixed="true" data-kt-app-sidebar-hoverable="true" data-kt-app-sidebar-push-header="true" data-kt-app-sidebar-push-toolbar="true" data-kt-app-sidebar-push-footer="true" data-kt-app-toolbar-enabled="true" class="app-default">
-    <uc1:loader runat="server" id="loader" />
+    <uc1:loader runat="server" ID="loader" />
     <!--begin::Theme mode setup on page load-->
     <script>var defaultThemeMode = "light"; var themeMode; if (document.documentElement) { if (document.documentElement.hasAttribute("data-bs-theme-mode")) { themeMode = document.documentElement.getAttribute("data-bs-theme-mode"); } else { if (localStorage.getItem("data-bs-theme") !== null) { themeMode = localStorage.getItem("data-bs-theme"); } else { themeMode = defaultThemeMode; } } if (themeMode === "system") { themeMode = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"; } document.documentElement.setAttribute("data-bs-theme", themeMode); }</script>
     <!--end::Theme mode setup on page load-->
@@ -281,10 +281,10 @@
                                                                     <td>
                                                                         <div class="d-flex align-items-center ps-5">
                                                                             <div class="symbol symbol-50px me-3">
-                                                                                <img src="/assets/img/home/german.webp" class="" alt="" />
+                                                                                <img src="assets/img/flags/germany.svg" class="" alt="" />
                                                                             </div>
                                                                             <div class="d-flex justify-content-start flex-column">
-                                                                                <a href="apps/projects/users.html" class="text-gray-800 fw-bold text-hover-primary mb-1 fs-6">Germany</a>
+                                                                                <a href="#" class="text-gray-800 fw-bold text-hover-primary mb-1 fs-6">Germany</a>
                                                                                 <span class="text-gray-500 fw-semibold d-block fs-7">Today, 16:36</span>
                                                                             </div>
                                                                         </div>
@@ -299,10 +299,10 @@
                                                                     <td>
                                                                         <div class="d-flex align-items-center ps-5">
                                                                             <div class="symbol symbol-50px me-3">
-                                                                                <img src="assets/img/home/japan.webp" class="" alt="" />
+                                                                                <img src="assets/img/flags/japan.svg" class="" alt="" />
                                                                             </div>
                                                                             <div class="d-flex justify-content-start flex-column">
-                                                                                <a href="apps/projects/users.html" class="text-gray-800 fw-bold text-hover-primary mb-1 fs-6">Japan</a>
+                                                                                <a href="#" class="text-gray-800 fw-bold text-hover-primary mb-1 fs-6">Japan</a>
                                                                                 <span class="text-gray-500 fw-semibold d-block fs-7">Today, 08:49</span>
                                                                             </div>
                                                                         </div>
@@ -317,10 +317,10 @@
                                                                     <td>
                                                                         <div class="d-flex align-items-center ps-5">
                                                                             <div class="symbol symbol-50px me-3">
-                                                                                <img src="assets/img/home/netherland.webp" class="" alt="" />
+                                                                                <img src="assets/img/flags/netherlands.svg" class="" alt="" />
                                                                             </div>
                                                                             <div class="d-flex justify-content-start flex-column">
-                                                                                <a href="apps/projects/users.html" class="text-gray-800 fw-bold text-hover-primary mb-1 fs-6">Netherland</a>
+                                                                                <a href="#" class="text-gray-800 fw-bold text-hover-primary mb-1 fs-6">Netherland</a>
                                                                                 <span class="text-gray-500 fw-semibold d-block fs-7">Yesterday, 14:36</span>
                                                                             </div>
                                                                         </div>
@@ -445,6 +445,189 @@
     <!--end::App-->
 
     <uc1:footerLinks runat="server" ID="footerLinks" />
+
+    <script>
+	var element = document.getElementById('kt_apexcharts_3');
+	var height = parseInt(KTUtil.css(element, 'height'));
+	var labelColor = KTUtil.getCssVariableValue('--kt-gray-500');
+	var borderColor = KTUtil.getCssVariableValue('--kt-gray-200');
+	var baseColor = "#0E41C1";
+	var lightColor = "rgba(14, 65, 193, .3)";
+
+	// if (!element) {
+	// 	return;
+	// }
+
+	var options = {
+		series: [{
+			name: 'Sent SMS',
+			data: [30, 40, 40, 90, 90, 70, 15, 30, 25, 60, 40, 5]
+		}],
+		chart: {
+			fontFamily: 'inherit',
+			type: 'area',
+			height: height,
+			toolbar: {
+				show: false
+			}
+		},
+		plotOptions: {
+
+		},
+		legend: {
+			show: false
+		},
+		dataLabels: {
+			enabled: false
+		},
+		fill: {
+			type: 'solid',
+			opacity: 1
+		},
+		stroke: {
+			curve: 'smooth',
+			show: true,
+			width: 3,
+			colors: [baseColor]
+		},
+		xaxis: {
+			categories: ['01', '02', '03', '04', '05', '06', '07', ' 08', '08', '10', '11', '12', '13'],
+			axisBorder: {
+				show: false,
+			},
+			axisTicks: {
+				show: false
+			},
+			labels: {
+				style: {
+					colors: labelColor,
+					fontSize: '12px'
+				}
+			},
+			crosshairs: {
+				position: 'front',
+				stroke: {
+					color: baseColor,
+					width: 1,
+					dashArray: 3
+				}
+			},
+			tooltip: {
+				enabled: true,
+				formatter: undefined,
+				offsetY: 0,
+				style: {
+					fontSize: '12px'
+				}
+			}
+		},
+		yaxis: {
+			labels: {
+				style: {
+					colors: labelColor,
+					fontSize: '12px'
+				}
+			}
+		},
+		states: {
+			normal: {
+				filter: {
+					type: 'none',
+					value: 0
+				}
+			},
+			hover: {
+				filter: {
+					type: 'none',
+					value: 0
+				}
+			},
+			active: {
+				allowMultipleDataPointsSelection: false,
+				filter: {
+					type: 'none',
+					value: 0
+				}
+			}
+		},
+		tooltip: {
+			style: {
+				fontSize: '12px'
+			},
+			y: {
+				formatter: function (val) {
+					return val + ' SMS'
+				}
+			}
+		},
+		colors: [lightColor],
+		grid: {
+			borderColor: borderColor,
+			strokeDashArray: 4,
+			yaxis: {
+				lines: {
+					show: true
+				}
+			}
+		},
+		markers: {
+			strokeColor: baseColor,
+			strokeWidth: 3
+		}
+	};
+
+	var chart = new ApexCharts(element, options);
+	chart.render();
+
+
+
+	var ctx = document.getElementById('kt_chartjs_3');
+
+	// Define colors
+	var primaryColor = KTUtil.getCssVariableValue('--kt-primary');
+	var dangerColor = KTUtil.getCssVariableValue('--kt-danger');
+	var successColor = KTUtil.getCssVariableValue('--kt-success');
+	var warningColor = KTUtil.getCssVariableValue('--kt-warning');
+	var infoColor = KTUtil.getCssVariableValue('--kt-info');
+
+	// Define fonts
+	var fontFamily = KTUtil.getCssVariableValue('--bs-font-sans-serif');
+
+	// Chart labels
+	const labels = ['Undelivered', 'Pending', 'Delivered'];
+
+	// Chart data
+	const data = {
+		labels: labels,
+		datasets: [{
+			data: [40, 32, 28]
+	}]
+	};
+
+	// Chart config
+	const config = {
+		type: 'pie',
+		data: data,
+		options: {
+			plugins: {
+				title: {
+					display: false,
+				}
+			},
+			responsive: true,
+		},
+		defaults:{
+			global: {
+				defaultFont: fontFamily
+			}
+		}
+	};
+
+	// Init ChartJS -- for more info, please visit: https://www.chartjs.org/docs/latest/
+	var myChart = new Chart(ctx, config);
+
+
+    </script>
 </body>
 <!--end::Body-->
 </html>
