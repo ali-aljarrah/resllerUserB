@@ -148,16 +148,57 @@
     <Content Include="assets\plugins\global\fonts\line-awesome\la-solid-900.svg" />
     <Content Include="assets\plugins\global\plugins.bundle.css" />
     <Content Include="assets\plugins\global\plugins.bundle.js" />
+    <Content Include="controls\footer.ascx" />
+    <Content Include="controls\footerLinks.ascx" />
+    <Content Include="controls\head.ascx" />
+    <Content Include="controls\loader.ascx" />
     <Content Include="controls\menuTop.ascx" />
+    <Content Include="controls\sideBar.ascx" />
     <Content Include="index.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="controls\footer.ascx.cs">
+      <DependentUpon>footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\footer.ascx.designer.cs">
+      <DependentUpon>footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controls\footerLinks.ascx.cs">
+      <DependentUpon>footerLinks.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\footerLinks.ascx.designer.cs">
+      <DependentUpon>footerLinks.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controls\head.ascx.cs">
+      <DependentUpon>head.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\head.ascx.designer.cs">
+      <DependentUpon>head.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controls\loader.ascx.cs">
+      <DependentUpon>loader.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\loader.ascx.designer.cs">
+      <DependentUpon>loader.ascx</DependentUpon>
+    </Compile>
     <Compile Include="controls\menuTop.ascx.cs">
       <DependentUpon>menuTop.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="controls\menuTop.ascx.designer.cs">
       <DependentUpon>menuTop.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controls\sideBar.ascx.cs">
+      <DependentUpon>sideBar.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\sideBar.ascx.designer.cs">
+      <DependentUpon>sideBar.ascx</DependentUpon>
     </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>

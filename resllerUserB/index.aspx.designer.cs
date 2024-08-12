@@ -15,21 +15,57 @@ namespace resllerUserB
     {
 
         /// <summary>
-        /// parentPage control.
+        /// head control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl parentPage;
+        protected global::resllerUserB.controls.head head;
 
         /// <summary>
-        /// childPage control.
+        /// loader control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl childPage;
+        protected global::resllerUserB.controls.loader loader;
+
+        /// <summary>
+        /// menuTop control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::resellerUserA.Controls.menuTop menuTop;
+
+        /// <summary>
+        /// sideBar control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::resllerUserB.controls.sideBar sideBar;
+
+        /// <summary>
+        /// footer control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::resllerUserB.controls.footer footer;
+
+        /// <summary>
+        /// footerLinks control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::resllerUserB.controls.footerLinks footerLinks;
     }
 }

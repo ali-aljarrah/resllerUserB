@@ -20,10 +20,5 @@ namespace resellerUserA.Controls
             get { return childPage.InnerText; }
             set { childPage.InnerText = value; }
         }
-
-        protected void Page_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
