@@ -8,7 +8,7 @@
 <%@ Register Src="~/controls/loader.ascx" TagPrefix="uc1" TagName="loader" %>
 
 <uc1:head runat="server" ID="head" />
-<meta property="og:title" content="Metronic - The World's #1 Selling Bootstrap Admin Template by KeenThemes" />
+<title>Reseller Admin - Dashboard</title>
 </head>
 <!--end::Head-->
 <!--begin::Body-->

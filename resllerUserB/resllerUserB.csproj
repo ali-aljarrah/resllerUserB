@@ -67,6 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="403.aspx" />
+    <Content Include="404.aspx" />
+    <Content Include="500.aspx" />
+    <Content Include="api_references.aspx" />
     <Content Include="assets\css\custom.css" />
     <Content Include="assets\css\font.css" />
     <Content Include="assets\css\prism.css" />
@@ -336,8 +340,11 @@
     <Content Include="assets\img\home\Layer 1.svg" />
     <Content Include="assets\img\LOGO.svg" />
     <Content Include="assets\img\youtube.png" />
+    <Content Include="assets\js\coverage.js" />
     <Content Include="assets\js\main.js" />
     <Content Include="assets\js\scripts.bundle.js" />
+    <Content Include="assets\js\sendbulk.js" />
+    <Content Include="assets\js\sendsms.js" />
     <Content Include="assets\plugins\custom\ckeditor\ckeditor-balloon-block.bundle.js" />
     <Content Include="assets\plugins\custom\ckeditor\ckeditor-balloon.bundle.js" />
     <Content Include="assets\plugins\custom\ckeditor\ckeditor-classic.bundle.js" />
@@ -409,16 +416,53 @@
     <Content Include="assets\plugins\global\fonts\line-awesome\la-solid-900.svg" />
     <Content Include="assets\plugins\global\plugins.bundle.css" />
     <Content Include="assets\plugins\global\plugins.bundle.js" />
+    <Content Include="bulksms.aspx" />
     <Content Include="controls\footer.ascx" />
     <Content Include="controls\footerLinks.ascx" />
     <Content Include="controls\head.ascx" />
     <Content Include="controls\loader.ascx" />
     <Content Include="controls\menuTop.ascx" />
     <Content Include="controls\sideBar.ascx" />
+    <Content Include="cov.aspx" />
     <Content Include="index.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="403.aspx.cs">
+      <DependentUpon>403.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="403.aspx.designer.cs">
+      <DependentUpon>403.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="404.aspx.cs">
+      <DependentUpon>404.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="404.aspx.designer.cs">
+      <DependentUpon>404.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="500.aspx.cs">
+      <DependentUpon>500.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="500.aspx.designer.cs">
+      <DependentUpon>500.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="api_references.aspx.cs">
+      <DependentUpon>api_references.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="api_references.aspx.designer.cs">
+      <DependentUpon>api_references.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bulksms.aspx.cs">
+      <DependentUpon>bulksms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bulksms.aspx.designer.cs">
+      <DependentUpon>bulksms.aspx</DependentUpon>
+    </Compile>
     <Compile Include="controls\footer.ascx.cs">
       <DependentUpon>footer.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -460,6 +504,13 @@
     </Compile>
     <Compile Include="controls\sideBar.ascx.designer.cs">
       <DependentUpon>sideBar.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="cov.aspx.cs">
+      <DependentUpon>cov.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="cov.aspx.designer.cs">
+      <DependentUpon>cov.aspx</DependentUpon>
     </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
