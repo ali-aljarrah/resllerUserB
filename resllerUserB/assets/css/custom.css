@@ -40,6 +40,10 @@ body {
     color: #000;
 }
 
+b.none{
+    border:none !important;
+} 
+
 .btn-grad {
     background-image: linear-gradient( to right, #0e41c1 0%, #3a7bd5 51%, #0047ff 100% );
     margin: 10px;
@@ -532,3 +536,19 @@ button.tablinks.active {
 }
 
 
+.bg-sidebar{
+    background-color:#ffffff !important;
+}
+/*sidebar title color*/
+
+[data-kt-app-layout=dark-sidebar] .app-sidebar .menu .menu-item .menu-link .menu-title {
+    color: #000000 !important;
+}
+
+[data-kt-app-layout=dark-sidebar] .app-sidebar .app-sidebar-logo {
+    border-bottom: none !important;
+}
+
+[data-kt-app-layout=dark-sidebar] .app-sidebar .menu .menu-item.hover:not(.here) > .menu-link:not(.disabled):not(.active):not(.here) .menu-arrow:after, [data-kt-app-layout=dark-sidebar] .app-sidebar .menu .menu-item:not(.here) .menu-link:hover:not(.disabled):not(.active):not(.here) .menu-arrow:after {
+    background-color: #000000 !important;
+}
