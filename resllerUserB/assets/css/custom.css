@@ -552,3 +552,6 @@ button.tablinks.active {
 [data-kt-app-layout=dark-sidebar] .app-sidebar .menu .menu-item.hover:not(.here) > .menu-link:not(.disabled):not(.active):not(.here) .menu-arrow:after, [data-kt-app-layout=dark-sidebar] .app-sidebar .menu .menu-item:not(.here) .menu-link:hover:not(.disabled):not(.active):not(.here) .menu-arrow:after {
     background-color: #000000 !important;
 }
+span.bullet.bullet-dot:hover {
+    background-color: #0e41c1 !important;
+}
