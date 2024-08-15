@@ -555,3 +555,16 @@ button.tablinks.active {
 span.bullet.bullet-dot:hover {
     background-color: #0e41c1 !important;
 }
+
+svg.stroke.span.menu-link:hover {
+    stroke: #ffffff !important;
+}
+
+svg.fill:hover {
+    fill: #ffffff;
+}
+
+.menu-item:hover .menu-link  {
+    color: #ffff !important;
+    background: #0e41c1 !important;
+}
