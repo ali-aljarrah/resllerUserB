@@ -574,7 +574,7 @@ svg.fill:hover {
 }
 
 .menu-item:hover {
-    background-color: #0e41c1;
+    border-radius: 6px;
 }
 
     .menu-item:hover .menu-link.main .menu-title {
@@ -584,3 +584,12 @@ svg.fill:hover {
     .menu-item:hover .menu-link.main .menu-icon svg path {
         fill: #FFFFFF;
     }
+
+
+span.menu-link.bg-hov:hover {
+    background-color: #0e41c1;
+    border-radius: 6px;
+}
+span.menu-title.bg-hov:hover {
+    color: #FFFFFF;
+}
