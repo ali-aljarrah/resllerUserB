@@ -44,6 +44,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -341,6 +344,12 @@
     <Content Include="assets\img\LOGO.svg" />
     <Content Include="assets\img\youtube.png" />
     <Content Include="assets\js\coverage.js" />
+    <Content Include="assets\js\custom\authentication\reset-password\reset-password.js" />
+    <Content Include="assets\js\custom\authentication\reset-password\reset_func.js" />
+    <Content Include="assets\js\custom\authentication\sign-in\general.js" />
+    <Content Include="assets\js\custom\authentication\sign-in\two-fa-other.js" />
+    <Content Include="assets\js\custom\authentication\sign-in\two-factor.js" />
+    <Content Include="assets\js\custom\authentication\sign-up\general.js" />
     <Content Include="assets\js\main.js" />
     <Content Include="assets\js\scripts.bundle.js" />
     <Content Include="assets\js\sendbulk.js" />
@@ -424,6 +433,7 @@
     <Content Include="controls\menuTop.ascx" />
     <Content Include="controls\sideBar.ascx" />
     <Content Include="cov.aspx" />
+    <Content Include="forgot.aspx" />
     <Content Include="index.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -511,6 +521,13 @@
     </Compile>
     <Compile Include="cov.aspx.designer.cs">
       <DependentUpon>cov.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="forgot.aspx.cs">
+      <DependentUpon>forgot.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="forgot.aspx.designer.cs">
+      <DependentUpon>forgot.aspx</DependentUpon>
     </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>

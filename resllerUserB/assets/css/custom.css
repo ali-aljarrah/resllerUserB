@@ -569,27 +569,37 @@ svg.fill:hover {
     background: #0e41c1 !important;
 }*/
 
+.menu-item {
+    border-radius: 10px !important;
+    transition: all .2s ease-in-out;
+}
+
 .menu-item .menu-link .menu-title {
     color: #000000;
+    transition: all .2s ease-in-out;
 }
 
-.menu-item:hover {
-    border-radius: 6px;
+.menu-item .menu-link .menu-icon svg path {
+    transition: all .2s ease-in-out;
 }
 
-    .menu-item:hover .menu-link.main .menu-title {
-        color: #FFFFFF;
+    .menu-item:hover .menu-link.main {
+        background-color: #0e41c1;
     }
 
-    .menu-item:hover .menu-link.main .menu-icon svg path {
-        fill: #FFFFFF;
-    }
+.menu-item:hover .menu-link.main .menu-title {
+    color: #FFFFFF;
+}
+
+.menu-item:hover .menu-link.main .menu-icon svg path {
+    fill: #FFFFFF;
+}
 
 
-span.menu-link.bg-hov:hover {
+/*span.menu-link.bg-hov:hover {
     background-color: #0e41c1;
     border-radius: 6px;
 }
 span.menu-title.bg-hov:hover {
     color: #FFFFFF;
-}
+}*/
