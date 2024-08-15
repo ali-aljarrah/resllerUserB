@@ -552,7 +552,7 @@ button.tablinks.active {
 [data-kt-app-layout=dark-sidebar] .app-sidebar .menu .menu-item.hover:not(.here) > .menu-link:not(.disabled):not(.active):not(.here) .menu-arrow:after, [data-kt-app-layout=dark-sidebar] .app-sidebar .menu .menu-item:not(.here) .menu-link:hover:not(.disabled):not(.active):not(.here) .menu-arrow:after {
     background-color: #000000 !important;
 }
-span.bullet.bullet-dot:hover {
+/*span.bullet.bullet-dot:hover {
     background-color: #0e41c1 !important;
 }
 
@@ -567,4 +567,20 @@ svg.fill:hover {
 .menu-item:hover .menu-link  {
     color: #ffff !important;
     background: #0e41c1 !important;
+}*/
+
+.menu-item .menu-link .menu-title {
+    color: #000000;
 }
+
+.menu-item:hover {
+    background-color: #0e41c1;
+}
+
+    .menu-item:hover .menu-link.main .menu-title {
+        color: #FFFFFF;
+    }
+
+    .menu-item:hover .menu-link.main .menu-icon svg path {
+        fill: #FFFFFF;
+    }

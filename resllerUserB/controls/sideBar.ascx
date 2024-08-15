@@ -4,7 +4,7 @@
     <!--begin::Logo-->
     <div class="app-sidebar-logo px-6 bg-sidebar b.none" id="kt_app_sidebar_logo">
         <!--begin::Logo image-->
-        <a href="index.html">
+        <a href="/index.html">
             <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <rect y="0.5" width="40" height="40" rx="8" fill="url(#paint0_linear_1628_4829)"/>
                 <path d="M13.5802 18.807V10.0465H15.4252V17.2799H19.1661V18.807H13.5802Z" fill="white"/>
@@ -41,8 +41,8 @@
                 <!--begin::Menu-->
                 <div class="menu menu-column menu-rounded menu-sub-indention fw-semibold fs-6" id="#kt_app_sidebar_menu" data-kt-menu="true" data-kt-menu-expand="false">
                     <!--begin:Menu item-->
-                    <div data-kt-menu-trigger="click" >
-                        <a class="menu-link" href="/index.aspx">
+                    <div class="menu-item">
+                        <a class="menu-link main" href="/index.aspx">
                             <!--begin:Menu link-->
                             <span class="ms-4">
                                 <span class="menu-icon">
@@ -57,8 +57,7 @@
                                     </defs>
                                  </svg>
                                 </span>
-                                <span class="menu-title fw-600 ms-2 mb-5" style="color:#000">Dashboards</span>
-                                <span class="menu-arrow"></span>
+                                <span class="menu-title fw-600 ms-2 mb-5">Dashboards</span>
                             </span>
                             <!--end:Menu link-->
                        </a>
@@ -67,7 +66,7 @@
                     <!--begin:Menu item-->
                     <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
                         <!--begin:Menu link-->
-                        <span class="menu-link mt-4">
+                        <span class="menu-link main mt-4">
                             <span class="menu-icon">
                                <svg class="svg.stroke" width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M13.629 20.972L13.087 21.888C12.604 22.704 11.397 22.704 10.913 21.888L10.371 20.972C9.951 20.262 9.741 19.906 9.403 19.71C9.065 19.513 8.64 19.506 7.79 19.491C6.534 19.47 5.747 19.393 5.087 19.119C4.48037 18.8677 3.92917 18.4994 3.46487 18.0351C3.00057 17.5708 2.63227 17.0196 2.381 16.413C2 15.495 2 14.33 2 12V11C2 7.727 2 6.09 2.737 4.888C3.14904 4.2152 3.71445 3.64945 4.387 3.237C5.59 2.5 7.228 2.5 10.5 2.5H13.5C16.773 2.5 18.41 2.5 19.613 3.237C20.2854 3.64917 20.8508 4.21456 21.263 4.887C22 6.09 22 7.728 22 11V12C22 14.33 22 15.495 21.62 16.413C21.3686 17.0197 21.0002 17.571 20.5357 18.0353C20.0712 18.4996 19.5198 18.8678 18.913 19.119C18.253 19.393 17.466 19.469 16.21 19.491C15.36 19.506 14.935 19.513 14.597 19.71C14.259 19.906 14.049 20.261 13.629 20.972ZM8 12.25C7.80109 12.25 7.61032 12.329 7.46967 12.4697C7.32902 12.6103 7.25 12.8011 7.25 13C7.25 13.1989 7.32902 13.3897 7.46967 13.5303C7.61032 13.671 7.80109 13.75 8 13.75H13.5C13.6989 13.75 13.8897 13.671 14.0303 13.5303C14.171 13.3897 14.25 13.1989 14.25 13C14.25 12.8011 14.171 12.6103 14.0303 12.4697C13.8897 12.329 13.6989 12.25 13.5 12.25H8ZM7.25 9.5C7.25 9.30109 7.32902 9.11032 7.46967 8.96967C7.61032 8.82902 7.80109 8.75 8 8.75H16C16.1989 8.75 16.3897 8.82902 16.5303 8.96967C16.671 9.11032 16.75 9.30109 16.75 9.5C16.75 9.69891 16.671 9.88968 16.5303 10.0303C16.3897 10.171 16.1989 10.25 16 10.25H8C7.80109 10.25 7.61032 10.171 7.46967 10.0303C7.32902 9.88968 7.25 9.69891 7.25 9.5Z" fill="url(#paint0_linear_1607_3807)"/>
