@@ -434,6 +434,7 @@
     <Content Include="controls\sideBar.ascx" />
     <Content Include="cov.aspx" />
     <Content Include="forgot.aspx" />
+    <Content Include="groups_manager.aspx" />
     <Content Include="index.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -528,6 +529,13 @@
     </Compile>
     <Compile Include="forgot.aspx.designer.cs">
       <DependentUpon>forgot.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="groups_manager.aspx.cs">
+      <DependentUpon>groups_manager.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="groups_manager.aspx.designer.cs">
+      <DependentUpon>groups_manager.aspx</DependentUpon>
     </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
