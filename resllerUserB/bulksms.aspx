@@ -141,7 +141,7 @@
                                                                 OnClientClick="sendBulkSubmit('BulkBtnSubmit'); return false;" OnClick="BulkBtnSubmit_Click" />
 
                                                             <div>
-                                                                <a class="btn btn-outline-dark btn-bordered py-4 px-8 rounded-2 ms-8" href="/sentreport">View report</a>
+                                                                <a class="btn btn-outline-dark btn-bordered py-4 px-8 rounded-2 ms-8" href="/sentreport.aspx">View report</a>
                                                             </div>
                                                         </div>
                                                         <asp:ScriptManager ID="ScriptManager1" runat="server" />

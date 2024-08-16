@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="hlr-log.aspx.cs" Inherits="resllerUserB.hlr_log" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="hlr_log.aspx.cs" Inherits="resllerUserB.hlr_log" %>
 
 
 <%@ Register Src="~/Controls/head.ascx" TagPrefix="uc1" TagName="head" %>

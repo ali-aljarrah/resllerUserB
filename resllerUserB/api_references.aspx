@@ -6,8 +6,9 @@
 <%@ Register Src="~/controls/footer.ascx" TagPrefix="uc1" TagName="footer" %>
 <%@ Register Src="~/controls/footerLinks.ascx" TagPrefix="uc1" TagName="footerLinks" %>
 <%@ Register Src="~/controls/loader.ascx" TagPrefix="uc1" TagName="loader" %>
-
 <uc1:head runat="server" ID="head" />
+<link href="assets/css/prism.css" rel="stylesheet" />
+
 <title>Reseller Admin - API References</title>
 </head>
 <!--end::Head-->

@@ -14,7 +14,7 @@ body {
     }
 
     body::-webkit-scrollbar-thumb {
-        background: gray;
+        background: gray;f
     }
 
 .app-header {
@@ -47,7 +47,7 @@ b.none{
 .btn-grad {
     background-image: linear-gradient( to right, #0e41c1 0%, #3a7bd5 51%, #0047ff 100% );
     margin: 10px;
-    padding: 15px 45px !important;
+    padding: 15px 25px !important;
     text-align: center;
     text-transform: uppercase;
     background-size: 200% auto;

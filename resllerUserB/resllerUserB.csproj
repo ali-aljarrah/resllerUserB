@@ -355,8 +355,10 @@
     <Content Include="assets\js\main.js" />
     <Content Include="assets\js\manage_files.js" />
     <Content Include="assets\js\payment_report.js" />
+    <Content Include="assets\js\prism.js" />
     <Content Include="assets\js\queue_report.js" />
     <Content Include="assets\js\reload.js" />
+    <Content Include="assets\js\reload_report.js" />
     <Content Include="assets\js\scripts.bundle.js" />
     <Content Include="assets\js\sendbulk.js" />
     <Content Include="assets\js\sendsms.js" />
@@ -444,7 +446,7 @@
     <Content Include="forgot.aspx" />
     <Content Include="groups_manager.aspx" />
     <Content Include="help.aspx" />
-    <Content Include="hlr-log.aspx" />
+    <Content Include="hlr_log.aspx" />
     <Content Include="hlr.aspx" />
     <Content Include="index.aspx" />
     <Content Include="login.aspx" />
@@ -452,6 +454,7 @@
     <Content Include="queuereport.aspx" />
     <Content Include="register.aspx" />
     <Content Include="reload.aspx" />
+    <Content Include="reloadreport.aspx" />
     <Content Include="send_sms.aspx" />
     <Content Include="sentreport.aspx" />
     <Content Include="settings.aspx" />
@@ -564,12 +567,12 @@
     <Compile Include="help.aspx.designer.cs">
       <DependentUpon>help.aspx</DependentUpon>
     </Compile>
-    <Compile Include="hlr-log.aspx.cs">
-      <DependentUpon>hlr-log.aspx</DependentUpon>
+    <Compile Include="hlr_log.aspx.cs">
+      <DependentUpon>hlr_log.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="hlr-log.aspx.designer.cs">
-      <DependentUpon>hlr-log.aspx</DependentUpon>
+    <Compile Include="hlr_log.aspx.designer.cs">
+      <DependentUpon>hlr_log.aspx</DependentUpon>
     </Compile>
     <Compile Include="hlr.aspx.cs">
       <DependentUpon>hlr.aspx</DependentUpon>
@@ -620,6 +623,13 @@
     </Compile>
     <Compile Include="reload.aspx.designer.cs">
       <DependentUpon>reload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reloadreport.aspx.cs">
+      <DependentUpon>reloadreport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reloadreport.aspx.designer.cs">
+      <DependentUpon>reloadreport.aspx</DependentUpon>
     </Compile>
     <Compile Include="send_sms.aspx.cs">
       <DependentUpon>send_sms.aspx</DependentUpon>

@@ -117,6 +117,20 @@ $('#low_balance_checkbox').on('change', function () {
     }
 });
 
+
+
+if($('#low_balance_checkbox').is(':checked')) {
+    $('input[name=low_balance_amount]').prop("disabled", false);
+    $('input[name=low_balance_email]').prop("disabled", false);
+} else {
+    $('input[name=low_balance_amount]').prop("disabled", true);
+    $('input[name=low_balance_email]').prop("disabled", true);
+}
+
+
+
+
+
 function enableNotificationInputs() {
     $('input[name=low_balance_amount]').prop("disabled", false);
     $('input[name=low_balance_email]').prop("disabled", false);
