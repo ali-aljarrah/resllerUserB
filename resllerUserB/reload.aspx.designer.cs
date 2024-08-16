@@ -11,7 +11,7 @@ namespace resllerUserB
 {
 
 
-    public partial class groups_manager
+    public partial class reload
     {
 
         /// <summary>
@@ -24,13 +24,13 @@ namespace resllerUserB
         protected global::resllerUserB.controls.head head;
 
         /// <summary>
-        /// frmSend control.
+        /// reloadForm control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm frmSend;
+        protected global::System.Web.UI.HtmlControls.HtmlForm reloadForm;
 
         /// <summary>
         /// loader control.
@@ -42,13 +42,13 @@ namespace resllerUserB
         protected global::resllerUserB.controls.loader loader;
 
         /// <summary>
-        /// menuTop control.
+        /// menuTop1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::resellerUserA.Controls.menuTop menuTop;
+        protected global::resellerUserA.Controls.menuTop menuTop1;
 
         /// <summary>
         /// sideBar control.
@@ -60,22 +60,22 @@ namespace resllerUserB
         protected global::resllerUserB.controls.sideBar sideBar;
 
         /// <summary>
-        /// attach1 control.
+        /// payPalBtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputFile attach1;
+        protected global::System.Web.UI.WebControls.LinkButton payPalBtn;
 
         /// <summary>
-        /// upload control.
+        /// cryptoBtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button upload;
+        protected global::System.Web.UI.WebControls.LinkButton cryptoBtn;
 
         /// <summary>
         /// ScriptManager1 control.

@@ -350,10 +350,18 @@
     <Content Include="assets\js\custom\authentication\sign-in\two-fa-other.js" />
     <Content Include="assets\js\custom\authentication\sign-in\two-factor.js" />
     <Content Include="assets\js\custom\authentication\sign-up\general.js" />
+    <Content Include="assets\js\hlr-log.js" />
+    <Content Include="assets\js\hlr.js" />
     <Content Include="assets\js\main.js" />
+    <Content Include="assets\js\manage_files.js" />
+    <Content Include="assets\js\payment_report.js" />
+    <Content Include="assets\js\queue_report.js" />
+    <Content Include="assets\js\reload.js" />
     <Content Include="assets\js\scripts.bundle.js" />
     <Content Include="assets\js\sendbulk.js" />
     <Content Include="assets\js\sendsms.js" />
+    <Content Include="assets\js\sentreport.js" />
+    <Content Include="assets\js\settings.js" />
     <Content Include="assets\plugins\custom\ckeditor\ckeditor-balloon-block.bundle.js" />
     <Content Include="assets\plugins\custom\ckeditor\ckeditor-balloon.bundle.js" />
     <Content Include="assets\plugins\custom\ckeditor\ckeditor-classic.bundle.js" />
@@ -435,7 +443,19 @@
     <Content Include="cov.aspx" />
     <Content Include="forgot.aspx" />
     <Content Include="groups_manager.aspx" />
+    <Content Include="help.aspx" />
+    <Content Include="hlr-log.aspx" />
+    <Content Include="hlr.aspx" />
     <Content Include="index.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="paymentsreport.aspx" />
+    <Content Include="queuereport.aspx" />
+    <Content Include="register.aspx" />
+    <Content Include="reload.aspx" />
+    <Content Include="send_sms.aspx" />
+    <Content Include="sentreport.aspx" />
+    <Content Include="settings.aspx" />
+    <Content Include="sms_temp.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -537,6 +557,27 @@
     <Compile Include="groups_manager.aspx.designer.cs">
       <DependentUpon>groups_manager.aspx</DependentUpon>
     </Compile>
+    <Compile Include="help.aspx.cs">
+      <DependentUpon>help.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="help.aspx.designer.cs">
+      <DependentUpon>help.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="hlr-log.aspx.cs">
+      <DependentUpon>hlr-log.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hlr-log.aspx.designer.cs">
+      <DependentUpon>hlr-log.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="hlr.aspx.cs">
+      <DependentUpon>hlr.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hlr.aspx.designer.cs">
+      <DependentUpon>hlr.aspx</DependentUpon>
+    </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -544,7 +585,70 @@
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="paymentsreport.aspx.cs">
+      <DependentUpon>paymentsreport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paymentsreport.aspx.designer.cs">
+      <DependentUpon>paymentsreport.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="queuereport.aspx.cs">
+      <DependentUpon>queuereport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="queuereport.aspx.designer.cs">
+      <DependentUpon>queuereport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reload.aspx.cs">
+      <DependentUpon>reload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reload.aspx.designer.cs">
+      <DependentUpon>reload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="send_sms.aspx.cs">
+      <DependentUpon>send_sms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="send_sms.aspx.designer.cs">
+      <DependentUpon>send_sms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sentreport.aspx.cs">
+      <DependentUpon>sentreport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sentreport.aspx.designer.cs">
+      <DependentUpon>sentreport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="settings.aspx.cs">
+      <DependentUpon>settings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="settings.aspx.designer.cs">
+      <DependentUpon>settings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sms_temp.aspx.cs">
+      <DependentUpon>sms_temp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sms_temp.aspx.designer.cs">
+      <DependentUpon>sms_temp.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\font\UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa0ZL7SUc.woff2" />

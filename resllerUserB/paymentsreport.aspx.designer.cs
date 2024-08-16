@@ -11,7 +11,7 @@ namespace resllerUserB
 {
 
 
-    public partial class groups_manager
+    public partial class paymentsreport
     {
 
         /// <summary>
@@ -24,15 +24,6 @@ namespace resllerUserB
         protected global::resllerUserB.controls.head head;
 
         /// <summary>
-        /// frmSend control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm frmSend;
-
-        /// <summary>
         /// loader control.
         /// </summary>
         /// <remarks>
@@ -42,13 +33,13 @@ namespace resllerUserB
         protected global::resllerUserB.controls.loader loader;
 
         /// <summary>
-        /// menuTop control.
+        /// menuTop1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::resellerUserA.Controls.menuTop menuTop;
+        protected global::resellerUserA.Controls.menuTop menuTop1;
 
         /// <summary>
         /// sideBar control.
@@ -58,33 +49,6 @@ namespace resllerUserB
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::resllerUserB.controls.sideBar sideBar;
-
-        /// <summary>
-        /// attach1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputFile attach1;
-
-        /// <summary>
-        /// upload control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button upload;
-
-        /// <summary>
-        /// ScriptManager1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.ScriptManager ScriptManager1;
 
         /// <summary>
         /// footer control.

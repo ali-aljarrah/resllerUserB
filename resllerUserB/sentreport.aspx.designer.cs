@@ -11,7 +11,7 @@ namespace resllerUserB
 {
 
 
-    public partial class groups_manager
+    public partial class sentreport
     {
 
         /// <summary>
@@ -24,13 +24,13 @@ namespace resllerUserB
         protected global::resllerUserB.controls.head head;
 
         /// <summary>
-        /// frmSend control.
+        /// hlrForm control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm frmSend;
+        protected global::System.Web.UI.HtmlControls.HtmlForm hlrForm;
 
         /// <summary>
         /// loader control.
@@ -42,13 +42,13 @@ namespace resllerUserB
         protected global::resllerUserB.controls.loader loader;
 
         /// <summary>
-        /// menuTop control.
+        /// menuTop1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::resellerUserA.Controls.menuTop menuTop;
+        protected global::resellerUserA.Controls.menuTop menuTop1;
 
         /// <summary>
         /// sideBar control.
@@ -60,22 +60,31 @@ namespace resllerUserB
         protected global::resllerUserB.controls.sideBar sideBar;
 
         /// <summary>
-        /// attach1 control.
+        /// date_from control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputFile attach1;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText date_from;
 
         /// <summary>
-        /// upload control.
+        /// date_to control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button upload;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText date_to;
+
+        /// <summary>
+        /// exportSentReport control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button exportSentReport;
 
         /// <summary>
         /// ScriptManager1 control.

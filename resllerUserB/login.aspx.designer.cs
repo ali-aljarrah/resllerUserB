@@ -11,71 +11,71 @@ namespace resllerUserB
 {
 
 
-    public partial class groups_manager
+    public partial class login
     {
 
         /// <summary>
-        /// head control.
+        /// kt_sign_in_form control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::resllerUserB.controls.head head;
+        protected global::System.Web.UI.HtmlControls.HtmlForm kt_sign_in_form;
 
         /// <summary>
-        /// frmSend control.
+        /// email control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm frmSend;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText email;
 
         /// <summary>
-        /// loader control.
+        /// password control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::resllerUserB.controls.loader loader;
+        protected global::System.Web.UI.HtmlControls.HtmlInputPassword password;
 
         /// <summary>
-        /// menuTop control.
+        /// sign_in_submit control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::resellerUserA.Controls.menuTop menuTop;
+        protected global::System.Web.UI.WebControls.Button sign_in_submit;
 
         /// <summary>
-        /// sideBar control.
+        /// token control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::resllerUserB.controls.sideBar sideBar;
+        protected global::System.Web.UI.HtmlControls.HtmlInputHidden token;
 
         /// <summary>
-        /// attach1 control.
+        /// fpuser control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputFile attach1;
+        protected global::System.Web.UI.HtmlControls.HtmlInputHidden fpuser;
 
         /// <summary>
-        /// upload control.
+        /// fpuser_id control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button upload;
+        protected global::System.Web.UI.HtmlControls.HtmlInputHidden fpuser_id;
 
         /// <summary>
         /// ScriptManager1 control.
@@ -85,23 +85,5 @@ namespace resllerUserB
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.ScriptManager ScriptManager1;
-
-        /// <summary>
-        /// footer control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::resllerUserB.controls.footer footer;
-
-        /// <summary>
-        /// footerLinks control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::resllerUserB.controls.footerLinks footerLinks;
     }
 }
