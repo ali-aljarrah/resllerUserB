@@ -33,13 +33,13 @@ namespace resllerUserB
         protected global::resllerUserB.controls.loader loader;
 
         /// <summary>
-        /// Help control.
+        /// menuTop control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::resellerUserA.Controls.menuTop Help;
+        protected global::resellerUserA.Controls.menuTop menuTop;
 
         /// <summary>
         /// sideBar control.

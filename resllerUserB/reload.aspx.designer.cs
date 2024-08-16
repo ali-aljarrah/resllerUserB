@@ -24,15 +24,6 @@ namespace resllerUserB
         protected global::resllerUserB.controls.head head;
 
         /// <summary>
-        /// reloadForm control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm reloadForm;
-
-        /// <summary>
         /// loader control.
         /// </summary>
         /// <remarks>
@@ -42,13 +33,13 @@ namespace resllerUserB
         protected global::resllerUserB.controls.loader loader;
 
         /// <summary>
-        /// menuTop1 control.
+        /// menuTop control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::resellerUserA.Controls.menuTop menuTop1;
+        protected global::resellerUserA.Controls.menuTop menuTop;
 
         /// <summary>
         /// sideBar control.
