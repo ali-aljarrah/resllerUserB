@@ -13,7 +13,7 @@
 
 <uc1:head runat="server" ID="head" />
 
-<title>Account Credit Transactions</title>
+<title>Reseller - Account Credit Transactions</title>
 </head>
 <!--end::Head-->
 <!--begin::Body-->

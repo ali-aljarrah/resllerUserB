@@ -13,7 +13,7 @@
 
 <uc1:head runat="server" ID="head" />
 
-<title>Send Single SMS</title>
+<title>Reseller - Send Single SMS</title>
 </head>
 <!--end::Head-->
 <!--begin::Body-->

@@ -13,7 +13,7 @@
 
 <uc1:head runat="server" ID="head" />
 
- <title>Account Payment History</title>
+ <title>Reseller - Account Payment History</title>
         <style>
 			@media screen {
 				#printSection {

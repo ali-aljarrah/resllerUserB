@@ -11,7 +11,7 @@
 
 <uc1:head runat="server" ID="head" />
 
-<title>Coverage</title>
+<title>Reseller - Coverage</title>
 </head>
 <!--end::Head-->
 <!--begin::Body-->

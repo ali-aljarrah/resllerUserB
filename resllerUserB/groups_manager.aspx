@@ -10,7 +10,7 @@
 
 <uc1:head runat="server" ID="head" />
 
-<title>Coverage</title>
+<title>Reseller - Group Manager</title>
 </head>
 <!--end::Head-->
 <!--begin::Body-->

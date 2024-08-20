@@ -13,7 +13,7 @@
 
 <uc1:head runat="server" ID="head" />
 
-<title>Settings</title>
+<title>Reseller - Settings</title>
 </head>
 <!--end::Head-->
 <!--begin::Body-->
