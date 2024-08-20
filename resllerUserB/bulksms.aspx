@@ -137,11 +137,11 @@
                                                         </div>
                                                         <div class="d-flex justify-content-start align-items-center">
                                                             <asp:Button ID="BulkBtnSubmit" runat="server" Text="Send Bulk"
-                                                                CssClass="btn btn-grad-1 py-4 px-9 rounded-3"
+                                                                CssClass="btn btn-grad-1 py-3 px-9 rounded-3"
                                                                 OnClientClick="sendBulkSubmit('BulkBtnSubmit'); return false;" OnClick="BulkBtnSubmit_Click" />
 
                                                             <div>
-                                                                <a class="btn btn-outline-dark btn-bordered py-4 px-8 rounded-2 ms-8" href="/sentreport.aspx">View report</a>
+                                                                <a class="btn btn-outline-dark btn-bordered py-3 px-8 rounded-2 ms-8" href="/sentreport.aspx">View report</a>
                                                             </div>
                                                         </div>
                                                         <asp:ScriptManager ID="ScriptManager1" runat="server" />

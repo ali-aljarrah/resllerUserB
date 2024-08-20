@@ -189,7 +189,7 @@
                                                         </div>
                                                         <div class="mt-5">
                                                             <asp:Button ID="hlr_lookup_btn" runat="server" Text="Check" 
-                                                                CssClass="btn btn-grad-1 py-4 px-9 rounded-3"
+                                                                CssClass="btn btn-grad-1 py-3 px-9 rounded-3"
                                                                 OnClientClick="hlrSubmit('hlr_lookup_btn'); return false;" OnClick="hlr_lookup_btn_Click" />
                                                         </div>
                                                         <asp:ScriptManager ID="ScriptManager1" runat="server" />

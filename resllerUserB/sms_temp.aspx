@@ -79,7 +79,7 @@
                                                     <div class="text-start">
                                                         <input type="hidden" name="savetemp" id="savetemp" value="savetemp">
                                                         <asp:Button ID="savetempbtn" runat="server" Text="Check" 
-                                                            CssClass="btn btn-grad-1 py-4 px-9 rounded-3"
+                                                            CssClass="btn btn-grad-1 py-3 px-9 rounded-3"
                                                             OnClientClick="saveNewTemplate('savetempbtn'); return false;" OnClick="savetempbtn_Click" />
                                                     </div>
                                                     <asp:ScriptManager ID="ScriptManager1" runat="server" />

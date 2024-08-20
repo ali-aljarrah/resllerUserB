@@ -283,10 +283,11 @@
                         <!--end:Menu sub-->
                     </div>
                     <!--end:Menu item-->
+
                     <!--begin:Menu item-->
-                    <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
-                        <!--begin:Menu link-->
-                        <span class="menu-link main">
+                    <div class="menu-item">
+                         <!--begin:Menu link-->
+                        <a class="menu-link main" href="/reload.aspx">
                             <span class="menu-icon">
                                 <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M21.1006 8.504C21.0456 8.5 20.9846 8.5 20.9206 8.5H18.3956C16.3276 8.5 14.5586 10.128 14.5586 12.25C14.5586 14.372 16.3286 16 18.3956 16H20.9206C20.9846 16 21.0456 16 21.1026 15.996C21.5276 15.9704 21.9288 15.7911 22.2315 15.4916C22.5341 15.1921 22.7176 14.7927 22.7476 14.368C22.7516 14.308 22.7516 14.243 22.7516 14.183V10.317C22.7516 10.257 22.7516 10.192 22.7476 10.132C22.7176 9.70726 22.5341 9.30793 22.2315 9.00842C21.9288 8.7089 21.5276 8.52963 21.1026 8.504H21.1006ZM18.1726 13.25C18.7046 13.25 19.1356 12.802 19.1356 12.25C19.1356 11.698 18.7046 11.25 18.1726 11.25C17.6396 11.25 17.2086 11.698 17.2086 12.25C17.2086 12.802 17.6396 13.25 18.1726 13.25Z" fill="url(#paint0_linear_1607_2849)" />
@@ -304,10 +305,8 @@
                                 </svg>
                             </span>
                             <span class="menu-title bg-hov">Billing</span>
-                            <span class="menu-arrow"></span>
-                        </span>
+                        </a>
                         <!--end:Menu link-->
-                       
                     </div>
                     <!--end:Menu item-->
                     <!--begin:Menu item-->

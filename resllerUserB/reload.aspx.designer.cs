@@ -24,6 +24,15 @@ namespace resllerUserB
         protected global::resllerUserB.controls.head head;
 
         /// <summary>
+        /// reloadForm control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlForm reloadForm;
+
+        /// <summary>
         /// loader control.
         /// </summary>
         /// <remarks>

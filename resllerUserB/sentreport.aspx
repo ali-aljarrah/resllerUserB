@@ -73,10 +73,10 @@
                                                         <div class="col-md-4 mb-8 mb-md-0">
                                                             <div class="d-flex justify-content-start align-items-center h-100">
                                                                 <asp:Button ID="exportSentReport" runat="server" Text="Export" 
-                                                                    CssClass="btn btn-primary btn-grad py-4 px-6 rounded-1"
+                                                                    CssClass="btn btn-primary btn-grad py-3 px-6 rounded-1"
                                                                     OnClientClick="exportSentReport('exportSentReport'); return false;" OnClick="exportSentReport_Click" />
                                                                 <div class="me-5">
-                                                                    <a href="javascript:void(0);" id="rest_form_btn" class="btn btn-outline-dark btn-bordered py-4 px-6 rounded-1">Clear</a>                    
+                                                                    <a href="javascript:void(0);" id="rest_form_btn" class="btn btn-outline-dark btn-bordered py-3 px-6 rounded-1">Clear</a>                    
                                                                 </div>
                                                                 <asp:ScriptManager ID="ScriptManager1" runat="server" />
                                                             </div>
