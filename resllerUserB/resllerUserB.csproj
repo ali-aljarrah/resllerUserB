@@ -341,7 +341,6 @@
     <Content Include="assets\img\flags\zimbabwe.svg" />
     <Content Include="assets\img\home\Frame 93.png" />
     <Content Include="assets\img\home\Layer 1.svg" />
-    <Content Include="assets\img\LOGO.svg" />
     <Content Include="assets\img\youtube.png" />
     <Content Include="assets\js\coverage.js" />
     <Content Include="assets\js\custom\authentication\reset-password\reset-password.js" />
@@ -702,6 +701,7 @@
     <Content Include="assets\plugins\global\fonts\line-awesome\la-solid-900.ttf" />
     <Content Include="assets\plugins\global\fonts\line-awesome\la-solid-900.woff" />
     <Content Include="assets\plugins\global\fonts\line-awesome\la-solid-900.woff2" />
+    <Content Include="assets\img\logo.webp" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
