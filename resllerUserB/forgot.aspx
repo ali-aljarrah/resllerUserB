@@ -1,9 +1,15 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="forgot.aspx.cs" Inherits="resllerUserB.forgot" %>
 
+<%@ Register Src="~/controls/loader.ascx" TagPrefix="uc1" TagName="loader" %>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <!--begin::Head-->
 <head>
+     <style>
+    .loader,.loader.show{transition:.4s ease-in-out}.loader{position:fixed;left:0;right:0;top:0;bottom:0;background:#fff;opacity:0;visibility:hidden;display:flex;justify-content:center;align-items:center}.loader.show{z-index:999;opacity:1;visibility:visible}.loader-icon{width:48px;height:48px;border-radius:50%;display:inline-block;position:relative;border:10px solid;border-color:rgba(133,133,133,.15) rgba(133,133,133,.25) rgba(133,133,133,.35) rgba(133,133,133,.5);box-sizing:border-box;animation:1s linear infinite rotation}@keyframes rotation{0%{transform:rotate(0)}100%{transform:rotate(360deg)}} 
+    </style>
     <title>Reseller - Forget password</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -37,15 +43,13 @@
 <!--end::Head-->
 <!--begin::Body-->
 <body id="kt_body" data-kt-app-header-fixed="true" data-kt-app-header-fixed-mobile="true" data-kt-app-sidebar-enabled="true" data-kt-app-sidebar-fixed="true" data-kt-app-sidebar-push-toolbar="true" data-kt-app-sidebar-push-footer="true" class="app-default">
-    <!--<?php include 'include/loader.php' ?> -->
+    <uc1:loader runat="server" ID="loader" />
     <!--begin::Theme mode setup on page load-->
     <script>
         var defaultThemeMode = "light"; var themeMode; if (document.documentElement) { if (document.documentElement.hasAttribute("data-bs-theme-mode")) { themeMode = document.documentElement.getAttribute("data-bs-theme-mode"); } else { if (localStorage.getItem("data-bs-theme") !== null) { themeMode = localStorage.getItem("data-bs-theme"); } else { themeMode = defaultThemeMode; } } if (themeMode === "system") { themeMode = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"; } document.documentElement.setAttribute("data-bs-theme", themeMode); }
         var onSubmit = function (token) {
             t = document.querySelector("#password_reset_submit");
-            //t.setAttribute("data-kt-indicator", "on");
             (t.disabled = !0);
-            //document.getElementById('kt_sign_in_form').submit();
             __doPostBack("password_reset_submit", '');
         };
     </script>
