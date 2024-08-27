@@ -13,7 +13,7 @@
 
 <uc1:head runat="server" ID="head" />
 
-<title>Settings</title>
+<title>Reseller User | Settings</title>
 </head>
 <!--end::Head-->
 <!--begin::Body-->
@@ -88,19 +88,19 @@
                                                                             <div class="col-lg-6">
                                                                                 <div class="mb-5">
                                                                                     <label class="form-label">Name:</label>
-                                                                                    <input class="form-custom-input form-control" value="" type="text" name="name" id="name" runat="server" placeholder="Enter full name">
+                                                                                    <input class="form-custom-input form-control" value="" type="text" name="name" id="name" runat="server" placeholder="Enter full name" data-bs-toggle="tooltip" data-bs-placement="top" title="Please Enter your name For Message,Max length for numeric:18 and alphanumeric:11" >
                                                                                 </div>
                                                                             </div>
                                                                             <div class="col-lg-6">
                                                                                 <div class="mb-5">
                                                                                     <label class="form-label">Phone Number:</label>
-                                                                                    <input class="form-custom-input form-control" value="" type="text" name="phone" id="phone" runat="server" onkeypress="return goodchars(event,'0123456789,+');" maxlength="21" placeholder="Enter your phone number">
+                                                                                    <input class="form-custom-input form-control" value="" type="text" name="phone" id="phone" runat="server" onkeypress="return goodchars(event,'0123456789,+');" maxlength="21" placeholder="Enter your phone number" data-bs-toggle="tooltip" data-bs-placement="top" title="Please Enter Mobile Number,Maximum 30 numbers can be added seperated by comma..">
                                                                                 </div>
                                                                             </div>
                                                                             <div class="col-lg-6">
                                                                                 <div class="mb-5">
                                                                                     <label class="form-label">Company Name:</label>
-                                                                                    <input class="form-custom-input form-control" value="" type="text" name="company" id="company" runat="server" placeholder="Enter company name">
+                                                                                    <input class="form-custom-input form-control" value="" type="text" name="company" id="company" runat="server" placeholder="Enter company name" data-bs-toggle="tooltip" data-bs-placement="top" title="this block will show the name company..">
                                                                                 </div>
                                                                             </div>
                                                                             <div class="col-lg-6">
@@ -112,7 +112,7 @@
                                                                             <div class="col-lg-6">
                                                                                 <div class="mb-5">
                                                                                     <label class="form-label">Country:</label>
-                                                                                    <select name="country" id="country" runat="server" class="form-select form-custom-select" aria-label="">
+                                                                                    <select name="country" id="country" runat="server" class="form-select form-custom-select" aria-label="" data-bs-toggle="tooltip" data-bs-placement="top" title="this block will show the selected country..">
                                                                                         <option value="Greece" selected="">Greece</option>
                                                                                         <option value="Afghanistan">Afghanistan</option>
                                                                                         <option value="Aland Islands">Aland Islands</option>
@@ -392,13 +392,13 @@
                                                                                     <div class="col-lg-6">
                                                                                         <div class="mb-5">
                                                                                             <label class="form-label">Current Password:</label>
-                                                                                            <input type="password" class="form-control form-custom-input" name="current_password" id="current_password" runat="server" placeholder="Type Your Current Password" value="">
+                                                                                            <input type="password" class="form-control form-custom-input" name="current_password" id="current_password" runat="server" placeholder="Type Your Current Password" value="" data-bs-toggle="tooltip" data-bs-placement="top" title="Please enter you current password here.. ">
                                                                                         </div>
                                                                                     </div>
                                                                                     <div class="col-lg-6">
                                                                                         <div class="mb-5">
                                                                                             <label class="form-label">New Password:</label>
-                                                                                            <input type="password" class="form-control form-custom-input" name="password_new" id="password_new" runat="server" placeholder="Type Your New Password" value="">
+                                                                                            <input type="password" class="form-control form-custom-input" name="password_new" id="password_new" runat="server" placeholder="Type Your New Password" value="" data-bs-toggle="tooltip" data-bs-placement="top" title="Your new password must be at least 8 characters long .. ">
                                                                                         </div>
                                                                                     </div>
                                                                                 </div>
@@ -466,7 +466,7 @@
                                                                                     <div class="d-flex flex-column justify-content-between align-content-start h-100">
                                                                                         <div>
                                                                                             <label class="form-label">Configure API password</label>
-                                                                                            <input value="" type="password" class="form-control form-custom-input" name="api_pass" id="api_pass" runat="server" placeholder="Enter your API password">
+                                                                                            <input value="" type="password" class="form-control form-custom-input" name="api_pass" id="api_pass" runat="server" placeholder="Enter your API password"  data-bs-toggle="tooltip" data-bs-placement="top" title="Please enter your Configure API password .. ">
                                                                                             <p class="fs-14 color-neutral-grey mt-4">
                                                                                                 Enhance the security of your API access by setting a unique API password. By default, the API uses the same login password, but you can ensure separate authentication for better protection.
                                                                                             </p>
@@ -481,7 +481,7 @@
                                                                                     <div class="mb-3 d-flex flex-column justify-content-between align-content-start h-100">
                                                                                         <div>
                                                                                             <label class="form-label">Enable IP Whitelisting:</label>
-                                                                                            <input class="form-control form-custom-input" value="" type="text" name="api_ip" id="api_ip" runat="server" placeholder="Enter whitelisted IP address for your API">
+                                                                                            <input class="form-control form-custom-input" value="" type="text" name="api_ip" id="api_ip" runat="server" placeholder="Enter whitelisted IP address for your API" data-bs-toggle="tooltip" data-bs-placement="top" title="Please write IP to whitelisting, ex: 192.68.1.1  ">
                                                                                             <p class="fs-14 color-neutral-grey mt-4">
                                                                                                 Take a proactive approach to protect your API from unauthorized access. Enable IP whitelisting in this section to restrict HTTP(s) API requests to trusted IP addresses only. 
                                                                                             </p>
@@ -508,7 +508,7 @@
                                                                                 <div class="mt-4">
                                                                                     <div>
                                                                                         <label class="form-label">DLR Call Back URL</label>
-                                                                                        <input class="form-control form-custom-input" value="" type="text" name="dlr" id="dlr" runat="server" placeholder="http://www.example.com/dlr.php">
+                                                                                        <input class="form-control form-custom-input" value="" type="text" name="dlr" id="dlr" runat="server" placeholder="http://www.example.com/dlr.php"  data-bs-toggle="tooltip" data-bs-placement="top" title="Please write DLR Call Back URL, ex: http://www.example.com/dlr.php ">
                                                                                         <p class="fs-14 color-neutral-grey mt-4">
                                                                                             Enhance the security of your API access by setting a unique API password. By default, the API uses the same login password, but you can ensure separate authentication for better protection.
                                                                                         </p>

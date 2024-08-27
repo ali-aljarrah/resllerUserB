@@ -11,7 +11,7 @@
 
 <uc1:head runat="server" ID="head" />
 
-<title>Lookup</title>
+<title>Reseller User | Lookup Log</title>
 </head>
 <!--end::Head-->
 <!--begin::Body-->
@@ -48,13 +48,13 @@
                                     <div class="row g-5 g-xl-10 mb-xl-10 mt-0">
                                         <!--begin::Col-->
                                         <div class="col-md-12 mb-md-0 mb-5 mt-5">
-                                            <div class="card card-flush shadow-xs h-100 border-0 p-5">
+                                            <div class="card card-flush shadow-xs h-100 border-0 p-8">
                                                 <!--begin::Page title-->
                                                 <div class="page-title gap-1 d-flex justify-content-between align-items-start">
                                                     <div>
                                                         <!--begin::Title-->
                                                         <h1 class="page-heading d-flex flex-column justify-content-center text-dark fw-bold m-1">Lookup Log Report</h1>
-                                                        <p class="fs-14 color-neutral-grey">
+                                                        <p class="fs-14 color-neutral-grey pt-3">
                                                         This list is a temporary list of reports for precisely 24 hours. This ensures swift access to recent data while maintaining data privacy and security.
                                                         </p>
                                                         <!--end::Title-->

@@ -13,7 +13,7 @@
 
 <uc1:head runat="server" ID="head" />
 
- <title>Account Payment History</title>
+ <title> Reseller User | Account Payment History</title>
         <style>
 			@media screen {
 				#printSection {
@@ -60,7 +60,7 @@
         <div class="app-page flex-column flex-column-fluid" id="kt_app_page">
 
             <!--begin::Header-->
-            <uc1:menuTop runat="server" ID="menuTop" parentPageText="Report" childPageText="Payments " />
+            <uc1:menuTop runat="server" ID="menuTop" parentPageText="Report" childPageText="Payments Report" />
             <!--end::Header-->
             <!--begin::Wrapper-->
             <div class="app-wrapper flex-column flex-row-fluid" id="kt_app_wrapper">

@@ -13,7 +13,7 @@
 
 <uc1:head runat="server" ID="head" />
 
-<title>Queue Report</title>
+<title>Reseller User | Queue Report</title>
 </head>
 <!--end::Head-->
 <!--begin::Body-->

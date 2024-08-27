@@ -10,7 +10,7 @@
 
 <uc1:head runat="server" ID="head" />
 
-<title>Coverage</title>
+<title>Reseller User | Groups Management</title>
 </head>
 <!--end::Head-->
 <!--begin::Body-->
@@ -27,7 +27,7 @@
             <div class="app-page flex-column flex-column-fluid" id="kt_app_page">
 
                 <!--begin::Header-->
-                <uc1:menuTop runat="server" ID="menuTop" parentPageText="Favorites" childPageText="groups_manager" />
+                <uc1:menuTop runat="server" ID="menuTop" parentPageText="Favorites" childPageText="Groups Manager" />
                 <!--end::Header-->
                 <!--begin::Wrapper-->
                 <div class="app-wrapper flex-column flex-row-fluid" id="kt_app_wrapper">

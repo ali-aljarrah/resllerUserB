@@ -13,7 +13,7 @@
 
 <uc1:head runat="server" ID="head" />
 
-<title>Sent SMS Report</title>
+<title>Reseller User | Sent SMS Report</title>
 </head>
 <!--end::Head-->
 <!--begin::Body-->

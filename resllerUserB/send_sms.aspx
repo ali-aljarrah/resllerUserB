@@ -13,7 +13,7 @@
 
 <uc1:head runat="server" ID="head" />
 
-<title>Send Single SMS</title>
+<title>Reseller User | Single SMS</title>
 </head>
 <!--end::Head-->
 <!--begin::Body-->
@@ -63,6 +63,24 @@
                                                     <p class="color-neutral-grey mt-1 fs-14">
                                                     Easily send messages to multiple numbers by adding commas between them. You can send to a maximum of 30 numbers each time. Happy texting!
                                                     </p>
+                                                    <div class="row g-5 g-xl-10">
+                                                        <div class="col-xl-7 mb-xl-10">
+                                                           <!--begin::Alert-->
+                                                            <div class="alert alert-primary d-flex align-items-center p-1">
+                                                                    <!--begin::Icon-->
+                                                                     <i class="ki-duotone ki-notification-bing fs-2hx text-primary me-2 mb-5 mb-sm-0"><span class="path1"></span><span class="path2"></span><span class="path3"></span></i>
+                                                                    <!--end::Icon-->
+                                                                <!--begin::Wrapper-->
+                                                                <div class="d-flex flex-column">
+                                                                    <!--begin::Content-->
+                                                                    <span class="fs-12">Duplicate numbers will be ignored by the system.</span>
+                                                                    <!--end::Content-->
+                                                                </div>
+                                                                <!--end::Wrapper-->
+                                                            </div>
+                                                            <!--end::Alert-->
+                                                         </div>
+                                                     </div>
                                                 </div>
                                                 <!--end::Header-->
                                                 <!--begin::Body-->
@@ -143,6 +161,9 @@
                                                     <h3 class="card-title card-label fs-20 fw-bold color-black-1">
                                                     Recently Sent Messages
                                                     </h3>
+                                                    <p class="gray fs-14">
+                                                        This typically includes text messages, emails, or other types of communication. 
+                                                    </p>
                                                 </div>
                                                 <!--end::Header-->
                                                 <!--begin::Body-->

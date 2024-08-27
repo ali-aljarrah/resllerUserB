@@ -12,7 +12,7 @@
 
 <uc1:head runat="server" ID="head" />
 
-<title>Lookup</title>
+<title>Reseller User | Single Lookup</title>
 </head>
 <!--end::Head-->
 <!--begin::Body-->
@@ -203,9 +203,12 @@
                                                 <div class="card card-flush shadow-xs h-100 border-0">
 										            <div class="custom-border-left h-100 mt-10 mt-md-0">
 											            <div class="p-8">
-                                                            <div class="dark-color fs-16 fw-500 mb-5">
+                                                            <div class="dark-color fs-16 fw-600 mb-5">
                                                             Lookup Result
                                                             </div>
+                                                                <p class="fs-14 pb-2 gray">
+                                                                    The Number Lookup tool provides detailed information about any phone number. 
+                                                                </p>
                                                             <div>
                                                                 <div class="hlr-block mt-4 d-flex justify-content-between border-gray">
                                                                     <div class="loading">

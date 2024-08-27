@@ -9,7 +9,7 @@
 
 
 <uc1:head runat="server" ID="head" />
-<title>Reseller Admin - Dashboard</title>
+<title>Reseller Admin | SMS Dashboard</title>
 </head>
 <!--end::Head-->
 <!--begin::Body-->
@@ -214,6 +214,9 @@
                                                         <h3 class="card-title align-items-start flex-column">
                                                             <span class="card-label fw-bold text-gray-800">SMS Balance</span>
                                                         </h3>
+                                                        <p class="fs-12 gray">
+                                                            SMS Balance refers to the remaining number of text messages you can send using your mobile phone plan. When your SMS balance reaches zero, you may need to purchase a top-up or recharge to continue sending text messages.
+                                                        </p>
                                                         <!--end::Title-->
                                                     </div>
                                                     <!--end::Header-->
@@ -269,6 +272,9 @@
                                                         <h3 class="card-title align-items-start flex-column">
                                                             <span class="card-label fw-bold text-gray-800">Sent Messages</span>
                                                         </h3>
+                                                        <p class="fs-12 gray pt-1">
+                                                            Sent Messages is a folder or section in your phone's messaging app that stores copies of all the text messages you've sent to others.
+                                                        </p>
                                                         <!--end::Title-->
                                                     </div>
                                                     <!--end::Header-->
@@ -341,12 +347,14 @@
                                                     <div class="card-footer pt-5 d-flex justify-content-end mb-0">
                                                         <!--begin::Title-->
                                                         <h3 class="card-title align-items-start flex-column mb-0">
-                                                            <span class="card-label fw-bold d-flex align-items-center text-gray-800 fs-16 blue">View all
-													  <i class="ki-duotone ki-arrow-right">
-                                                          <span class="path1 fs-25 blue"></span>
-                                                          <span class="path2 fs-25 blue"></span>
-                                                      </i>
-                                                            </span>
+                                                            <a href="/sentreport.aspxs">
+                                                                <span class="card-label fw-bold d-flex align-items-center text-gray-800 fs-16 blue" data-bs-toggle="tooltip" data-bs-placement="left" title="Click to view all Sent Messages">View all
+													              <i class="ki-duotone ki-arrow-right">
+                                                                      <span class="path1 fs-25 blue"></span>
+                                                                      <span class="path2 fs-25 blue"></span>
+                                                                  </i>
+                                                                </span>
+                                                           </a>
                                                         </h3>
                                                         <!--end::Title-->
                                                     </div>
@@ -378,7 +386,7 @@
                                                 <!--end::Title-->
                                                 <!--begin::button-->
                                                 <div class="card-toolbar">
-                                                    <a href="#" class="soft-blue fs-14 fw-bold pb-5 mb-5">View Report</a>
+                                                    <a href="/sentreport.aspxs" class="soft-blue fs-14 fw-bold pb-5 mb-5" data-bs-toggle="tooltip" data-bs-placement="top" title="Click here to view all Report">View Report</a>
                                                 </div>
                                                 <!--end::button-->
                                             </div>

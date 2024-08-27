@@ -350,7 +350,9 @@ button.btn.btn-secondary.buttons-pdf.buttons-html5 {
     width: fit-content;
 }
 
-
+.p-16 {
+    padding-top: 16px !important;
+}
 
 .hlr-block {
     border-radius: 5px;
