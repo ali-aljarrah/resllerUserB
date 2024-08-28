@@ -1,4 +1,6 @@
-$( document ).ready(function() {
+$(document).ready(function () {
+
+    checkSideBar();
 
     toastr.options = {
         "closeButton": false,
@@ -92,6 +94,47 @@ $( document ).ready(function() {
     }
 
 });
+
+
+
+// Function to check the sideBar
+function checkSideBar() {
+    if (localStorage.getItem("sideBar") === null) {
+        // If the item is not in the local storage then the sideBar is open by default
+        // So we create item in local storage for the side bar with the value 1
+        localStorage.setItem("sideBar", 1);
+    } else {
+        // If the item is in the local storage we need to get the item's value
+        let sideBarValue = localStorage.getItem("sideBar");
+
+        // TO DO:
+        // if the value is zero we need to delete the body attribute to close the side bar
+        if (sideBarValue == 0) {
+            document.getElementsByTagName('body')[0].setAttribute("data-kt-app-sidebar-minimize", "on");
+            document.getElementById('kt_app_sidebar_toggle').classList.add("active");
+        }
+    }
+}
+
+
+
+// Function to change storage value for sidebar
+function sideUserClick() {
+    // 
+    if (localStorage.getItem("sideBar") != null) {
+        let sideBarValue = localStorage.getItem("sideBar");
+        if (sideBarValue == 0) {
+            localStorage.setItem("sideBar", 1);
+        }
+        else {
+            localStorage.setItem("sideBar", 0);
+        }
+
+    }
+}
+
+
+
 
 $.fn.scrollDivToElement = function(childSel) {
     if (! this.length) return this;
