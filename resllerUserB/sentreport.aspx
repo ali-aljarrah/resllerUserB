@@ -62,13 +62,13 @@
                                                         <div class="col-md-4 mb-8 mb-md-0">
                                                             <div class="mb-8">
                                                                 <label for="date_from" class="form-label fs-14 dark-color">Start date</label>
-                                                                <input type="text" class="form-control form-custom-input" name="date_from" id="date_from" runat="server" placeholder="Start date" required="">
+                                                                <input type="text" class="form-control form-custom-input" name="date_from" id="date_from" runat="server" placeholder="Start date" required="" data-bs-toggle="tooltip" data-bs-placement="top" title="Please enter start date here..">
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4 mb-8 mb-md-0">
                                                             <div class="mb-8">
                                                                 <label for="date_to" class="form-label fs-14 dark-color">End date</label>
-                                                                <input type="text" class="form-control form-custom-input" name="date_to" id="date_to" runat="server" placeholder="Finish date" required="" max="2023-09-20">
+                                                                <input type="text" class="form-control form-custom-input" name="date_to" id="date_to" runat="server" placeholder="Finish date" required="" max="2023-09-20" data-bs-toggle="tooltip" data-bs-placement="top" title="Please enter end date here..">
                                                             </div>
                                                         </div>
                                                         <div class="col-md-4 mb-8 mb-md-0">

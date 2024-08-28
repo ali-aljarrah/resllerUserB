@@ -107,7 +107,7 @@
                                                                             <div class="col-lg-6">
                                                                                 <div class="mb-5">
                                                                                     <label class="form-label">Email:</label>
-                                                                                    <div class="form-custom-input form-control your-class">test@test.com</div>
+                                                                                    <div class="form-custom-input form-control your-class"  data-bs-toggle="tooltip" data-bs-placement="top" title="You can't modify the email you register with">test@test.com</div>
                                                                                 </div>
                                                                             </div>
                                                                             <div class="col-lg-6">
