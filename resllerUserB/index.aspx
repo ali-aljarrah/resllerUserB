@@ -88,23 +88,23 @@
                                                                     <rect x="0.0625" y="45.5704" width="37.508" height="8.4832" rx="4.2416" transform="rotate(-90 0.0625 45.5704)" fill="url(#paint4_linear_1091_6397)" />
                                                                     <defs>
                                                                         <linearGradient id="paint0_linear_1091_6397" x1="97.8748" y1="45.5704" x2="97.8748" y2="54.0536" gradientUnits="userSpaceOnUse">
-                                                                            <stop stop-color="#0E41C1" stop-opacity="0.870588" />
+                                                                            <stop stop-color="#0f204b" stop-opacity="0.870588" />
                                                                             <stop offset="1" stop-color="#0047FF" stop-opacity="0.870588" />
                                                                         </linearGradient>
                                                                         <linearGradient id="paint1_linear_1091_6397" x1="90.0277" y1="45.5704" x2="90.0277" y2="54.0536" gradientUnits="userSpaceOnUse">
-                                                                            <stop stop-color="#0E41C1" stop-opacity="0.870588" />
+                                                                            <stop stop-color="#0f204b" stop-opacity="0.870588" />
                                                                             <stop offset="1" stop-color="#0047FF" stop-opacity="0.870588" />
                                                                         </linearGradient>
                                                                         <linearGradient id="paint2_linear_1091_6397" x1="62.0263" y1="45.5704" x2="62.0263" y2="54.0536" gradientUnits="userSpaceOnUse">
-                                                                            <stop stop-color="#0E41C1" stop-opacity="0.870588" />
+                                                                            <stop stop-color="#0f204b" stop-opacity="0.870588" />
                                                                             <stop offset="1" stop-color="#0047FF" stop-opacity="0.870588" />
                                                                         </linearGradient>
                                                                         <linearGradient id="paint3_linear_1091_6397" x1="34.9014" y1="45.5704" x2="34.9014" y2="54.0536" gradientUnits="userSpaceOnUse">
-                                                                            <stop stop-color="#0E41C1" stop-opacity="0.870588" />
+                                                                            <stop stop-color="#0f204b" stop-opacity="0.870588" />
                                                                             <stop offset="1" stop-color="#0047FF" stop-opacity="0.870588" />
                                                                         </linearGradient>
                                                                         <linearGradient id="paint4_linear_1091_6397" x1="18.8165" y1="45.5704" x2="18.8165" y2="54.0536" gradientUnits="userSpaceOnUse">
-                                                                            <stop stop-color="#0E41C1" stop-opacity="0.870588" />
+                                                                            <stop stop-color="#0f204b" stop-opacity="0.870588" />
                                                                             <stop offset="1" stop-color="#0047FF" stop-opacity="0.870588" />
                                                                         </linearGradient>
                                                                     </defs>
@@ -461,7 +461,7 @@
 	var height = parseInt(KTUtil.css(element, 'height'));
 	var labelColor = KTUtil.getCssVariableValue('--kt-gray-500');
 	var borderColor = KTUtil.getCssVariableValue('--kt-gray-200');
-	var baseColor = "#0E41C1";
+	var baseColor = "#0f204b";
 	var lightColor = "rgba(14, 65, 193, .3)";
 
 	// if (!element) {

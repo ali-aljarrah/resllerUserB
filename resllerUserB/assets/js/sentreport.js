@@ -66,36 +66,36 @@ $("#rest_form_btn").click(function () {
     });
 });
 
-//$('#export').click(function (e) {
-//    e.preventDefault();
+$('#export').click(function (e) {
+    e.preventDefault();
 
-//    var date_from = $('#date_from').val();
-//    var date_to = $('#date_to').val();
+    var date_from = $('#date_from').val();
+    var date_to = $('#date_to').val();
 
-//    $(this).prop('disabled', true);
+    $(this).prop('disabled', true);
 
-//    if (date_from == '') {
+    if (date_from == '') {
 
-//        toastr.error("Please enter start date!");
+        toastr.error("Please enter start date!");
 
-//        $(this).prop('disabled', false);
+        $(this).prop('disabled', false);
 
-//        return;
-//    }
+        return;
+    }
 
-//    if (date_to == '') {
+    if (date_to == '') {
 
-//        toastr.error("Please enter finish date!");
+        toastr.error("Please enter finish date!");
 
-//        $(this).prop('disabled', false);
+        $(this).prop('disabled', false);
 
-//        return;
-//    }
+        return;
+    }
 
-//    toastr.success("Request received, Download link will be showing in the section down once ready, Note that exporting will take some time depending on the data size.");
+    toastr.success("Request received, Download link will be showing in the section down once ready, Note that exporting will take some time depending on the data size.");
 
-//    $(this).prop('disabled', false);
-//});
+    $(this).prop('disabled', false);
+});
 
 function exportSentReport(id) {
     var el = document.getElementById(id);
