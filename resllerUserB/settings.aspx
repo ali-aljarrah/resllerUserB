@@ -14,6 +14,7 @@
 <uc1:head runat="server" ID="head" />
 
 <title>Reseller User | Settings</title>
+<title>Reseller - Settings</title>
 </head>
 <!--end::Head-->
 <!--begin::Body-->

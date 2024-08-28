@@ -4,21 +4,8 @@
     <!--begin::Logo-->
     <div class="app-sidebar-logo px-6 bg-sidebar b.none" id="kt_app_sidebar_logo">
         <!--begin::Logo image-->
-        <a href="/index.html">
-            <svg width="40" height="41" viewBox="0 0 40 41" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect y="0.5" width="40" height="40" rx="8" fill="url(#paint0_linear_1628_4829)" />
-                <path d="M13.5802 18.807V10.0465H15.4252V17.2799H19.1661V18.807H13.5802Z" fill="white" />
-                <path d="M28.067 14.4267C28.067 15.3821 27.8866 16.1948 27.5259 16.865C27.168 17.5351 26.6794 18.047 26.0601 18.4006C25.4437 18.7514 24.7507 18.9267 23.9809 18.9267C23.2054 18.9267 22.5095 18.7499 21.8931 18.3963C21.2767 18.0427 20.7895 17.5308 20.4316 16.8607C20.0737 16.1905 19.8947 15.3792 19.8947 14.4267C19.8947 13.4714 20.0737 12.6587 20.4316 11.9885C20.7895 11.3184 21.2767 10.8079 21.8931 10.4572C22.5095 10.1035 23.2054 9.92674 23.9809 9.92674C24.7507 9.92674 25.4437 10.1035 26.0601 10.4572C26.6794 10.8079 27.168 11.3184 27.5259 11.9885C27.8866 12.6587 28.067 13.4714 28.067 14.4267ZM26.1965 14.4267C26.1965 13.8079 26.1042 13.2861 25.9195 12.8611C25.7377 12.4362 25.4807 12.114 25.1483 11.8944C24.816 11.6748 24.4268 11.565 23.9809 11.565C23.5349 11.565 23.1457 11.6748 22.8134 11.8944C22.4811 12.114 22.2226 12.4362 22.0379 12.8611C21.8561 13.2861 21.7652 13.8079 21.7652 14.4267C21.7652 15.0456 21.8561 15.5674 22.0379 15.9923C22.2226 16.4172 22.4811 16.7395 22.8134 16.9591C23.1457 17.1786 23.5349 17.2884 23.9809 17.2884C24.4268 17.2884 24.816 17.1786 25.1483 16.9591C25.4807 16.7395 25.7377 16.4172 25.9195 15.9923C26.1042 15.5674 26.1965 15.0456 26.1965 14.4267Z" fill="white" />
-                <path d="M17.2892 25.0248C17.2295 24.8166 17.1457 24.6327 17.0378 24.473C16.9299 24.3104 16.7978 24.1735 16.6415 24.0623C16.4882 23.9483 16.312 23.8613 16.1132 23.8014C15.9172 23.7415 15.6999 23.7116 15.4613 23.7116C15.0153 23.7116 14.6233 23.8228 14.2853 24.0452C13.9501 24.2677 13.6888 24.5913 13.5013 25.0162C13.3138 25.4383 13.2201 25.9544 13.2201 26.5647C13.2201 27.175 13.3124 27.694 13.4971 28.1217C13.6817 28.5495 13.943 28.876 14.281 29.1013C14.6191 29.3237 15.0182 29.435 15.4783 29.435C15.8959 29.435 16.2524 29.3608 16.5478 29.2125C16.8461 29.0614 17.0733 28.8489 17.2295 28.5752C17.3886 28.3014 17.4681 27.9777 17.4681 27.6042L17.8431 27.6598H15.5934V26.2653H19.2449V27.3689C19.2449 28.1389 19.083 28.8004 18.7592 29.3537C18.4353 29.9041 17.9894 30.329 17.4213 30.6284C16.8532 30.925 16.2027 31.0733 15.4698 31.0733C14.6517 31.0733 13.9331 30.8922 13.3138 30.53C12.6946 30.165 12.2117 29.6474 11.8652 28.9773C11.5215 28.3043 11.3496 27.5058 11.3496 26.5818C11.3496 25.8717 11.4519 25.2387 11.6564 24.6826C11.8637 24.1236 12.1535 23.6503 12.5256 23.2624C12.8977 22.8746 13.3309 22.5794 13.8251 22.377C14.3194 22.1745 14.8548 22.0733 15.4315 22.0733C15.9257 22.0733 16.3859 22.146 16.812 22.2914C17.2381 22.434 17.6158 22.6365 17.9453 22.8988C18.2777 23.1612 18.549 23.4735 18.7592 23.8356C18.9694 24.1949 19.1043 24.5913 19.1639 25.0248H17.2892Z" fill="white" />
-                <path d="M28.6496 26.5733C28.6496 27.5286 28.4692 28.3413 28.1085 29.0115C27.7505 29.6816 27.262 30.1935 26.6427 30.5471C26.0263 30.8979 25.3332 31.0733 24.5635 31.0733C23.788 31.0733 23.0921 30.8965 22.4757 30.5428C21.8593 30.1892 21.3721 29.6774 21.0142 29.0072C20.6563 28.337 20.4773 27.5257 20.4773 26.5733C20.4773 25.6179 20.6563 24.8052 21.0142 24.135C21.3721 23.4649 21.8593 22.9544 22.4757 22.6037C23.0921 22.2501 23.788 22.0733 24.5635 22.0733C25.3332 22.0733 26.0263 22.2501 26.6427 22.6037C27.262 22.9544 27.7505 23.4649 28.1085 24.135C28.4692 24.8052 28.6496 25.6179 28.6496 26.5733ZM26.7791 26.5733C26.7791 25.9544 26.6868 25.4326 26.5021 25.0077C26.3203 24.5828 26.0633 24.2605 25.7309 24.0409C25.3986 23.8214 25.0094 23.7116 24.5635 23.7116C24.1175 23.7116 23.7283 23.8214 23.396 24.0409C23.0637 24.2605 22.8052 24.5828 22.6205 25.0077C22.4387 25.4326 22.3478 25.9544 22.3478 26.5733C22.3478 27.1921 22.4387 27.7139 22.6205 28.1389C22.8052 28.5638 23.0637 28.886 23.396 29.1056C23.7283 29.3252 24.1175 29.435 24.5635 29.435C25.0094 29.435 25.3986 29.3252 25.7309 29.1056C26.0633 28.886 26.3203 28.5638 26.5021 28.1389C26.6868 27.7139 26.7791 27.1921 26.7791 26.5733Z" fill="white" />
-                <defs>
-                    <linearGradient id="paint0_linear_1628_4829" x1="20" y1="0.5" x2="20" y2="40.5" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#0E41C1" stop-opacity="0.870588" />
-                        <stop offset="1" stop-color="#0047FF" stop-opacity="0.870588" />
-                    </linearGradient>
-                </defs>
-            </svg>
-            <%-- <img class="img-fluid" src="assets/img/LOGO.svg" alt="Reseller Logo" />--%>
+        <a href="/index.aspx">
+             <img class="img-fluid" loading="lazy" width="40" height="40" src="assets/img/logo.webp" alt="Reseller Logo" />
         </a>
         <!--end::Logo image-->
         <!--begin::Sidebar toggle-->
@@ -40,7 +27,7 @@
                 <!--begin::Menu-->
                 <div class="menu menu-column menu-rounded menu-sub-indention fw-semibold fs-6" id="#kt_app_sidebar_menu" data-kt-menu="true" data-kt-menu-expand="false">
                     <!--begin:Menu item-->
-                    <div class="menu-item">
+                    <div class="menu-item" id="home-link">
                         <a class="menu-link main" href="/index.aspx">
                             <!--begin:Menu link-->
                             <span class="menu-icon">
@@ -61,7 +48,7 @@
                     </div>
                     <!--end:Menu item-->
                     <!--begin:Menu item-->
-                    <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+                    <div data-kt-menu-trigger="click" class="menu-item menu-accordion" id="send-sms-link">
                         <!--begin:Menu link-->
                         <span class="menu-link main">
                             <span class="menu-icon">
@@ -80,9 +67,9 @@
                         </span>
                         <!--end:Menu link-->
                         <!--begin:Menu sub-->
-                        <div class="menu-sub menu-sub-accordion">
+                        <div class="menu-sub menu-sub-accordion pt-2">
                             <!--begin:Menu item-->
-                            <div class="menu-item">
+                            <div class="menu-item child mb-2" id="send-sinle-sms-link">
                                 <!--begin:Menu link-->
                                 <a class="menu-link" href="/send_sms.aspx">
                                     <span class="menu-bullet">
@@ -94,7 +81,7 @@
                             </div>
                             <!--end:Menu item-->
                             <!--begin:Menu item-->
-                            <div class="menu-item">
+                            <div class="menu-item child" id="send-bulk-sms-link">
                                 <!--begin:Menu link-->
                                 <a class="menu-link" href="/bulksms.aspx">
                                     <span class="menu-bullet">
@@ -110,7 +97,7 @@
                     </div>
                     <!--end:Menu item-->
                     <!--begin:Menu item-->
-                    <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+                    <div data-kt-menu-trigger="click" class="menu-item menu-accordion" id="hlr-link">
                         <!--begin:Menu link-->
                         <span class="menu-link main">
                             <span class="menu-icon">
@@ -129,11 +116,11 @@
                         </span>
                         <!--end:Menu link-->
                         <!--begin:Menu sub-->
-                        <div class="menu-sub menu-sub-accordion">
+                        <div class="menu-sub menu-sub-accordion pt-2">
                             <!--begin:Menu item-->
-                            <div class="menu-item">
+                            <div class="menu-item child mb-2" id="sinle-hlr-link">
                                 <!--begin:Menu link-->
-                                <a class="menu-link" href="/hlr.aspx">
+                                <a class="menu-link " href="/hlr.aspx" >
                                     <span class="menu-bullet">
                                         <span class="bullet bullet-dot"></span>
                                     </span>
@@ -143,7 +130,7 @@
                             </div>
                             <!--end:Menu item-->
                             <!--begin:Menu item-->
-                            <div class="menu-item">
+                            <div class="menu-item child" id="hlr-log-link">
                                 <!--begin:Menu link-->
                                 <a class="menu-link" href="/hlr_log.aspx">
                                     <span class="menu-bullet">
@@ -159,7 +146,7 @@
                     </div>
                     <!--end:Menu item-->
                     <!--begin:Menu item-->
-                    <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+                    <div data-kt-menu-trigger="click" class="menu-item menu-accordion" id="favorites-link">
                         <!--begin:Menu link-->
                         <span class="menu-link main">
                             <span class="menu-icon">
@@ -178,9 +165,9 @@
                         </span>
                         <!--end:Menu link-->
                         <!--begin:Menu sub-->
-                        <div class="menu-sub menu-sub-accordion">
+                        <div class="menu-sub menu-sub-accordion pt-2">
                             <!--begin:Menu item-->
-                            <div class="menu-item">
+                            <div class="menu-item child mb-2" id="sms-template-link">
                                 <!--begin:Menu link-->
                                 <a class="menu-link" href="/sms_temp.aspx">
                                     <span class="menu-bullet">
@@ -192,7 +179,7 @@
                             </div>
                             <!--end:Menu item-->
                             <!--begin:Menu item-->
-                            <div class="menu-item">
+                            <div class="menu-item child" id="groups-manager-link">
                                 <!--begin:Menu link-->
                                 <a class="menu-link" href="/groups_manager.aspx">
                                     <span class="menu-bullet">
@@ -208,9 +195,9 @@
                     </div>
                     <!--end:Menu item-->
                     <!--begin:Menu item-->
-                    <%--                    <div data-kt-menu-trigger="{default: 'click', lg: 'hover'}" data-kt-menu-placement="right-start" class="menu-item menu-lg-down-accordion menu-sub-lg-down-indention">--%>
+
                     <!--begin:Menu link-->
-                    <div data-kt-menu-trigger="click" class="menu-item menu-accordion">
+                    <div data-kt-menu-trigger="click" class="menu-item menu-accordion" id="report-link">
                         <!--begin:Menu link-->
                         <span class="menu-link main">
                             <span class="menu-icon">
@@ -229,10 +216,9 @@
                         </span>
                         <!--end:Menu link-->
                         <!--begin:Menu sub-->
-                        <div class="menu-sub menu-sub-accordion">
-                            <%--                        <div class="menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown px-2 py-4 w-200px mh-75 overflow-auto">--%>
+                        <div class="menu-sub menu-sub-accordion pt-2">
                             <!--begin:Menu item-->
-                            <div class="menu-item">
+                            <div class="menu-item child mb-2" id="sent-report-link">
                                 <!--begin:Menu link-->
                                 <a class="menu-link" href="/sentreport.aspx">
                                     <span class="menu-bullet">
@@ -244,7 +230,7 @@
                             </div>
                             <!--end:Menu item-->
                             <!--begin:Menu item-->
-                            <div class="menu-item">
+                            <div class="menu-item child mb-2" id="queue-report-link">
                                 <!--begin:Menu link-->
                                 <a class="menu-link" href="/queuereport.aspx">
                                     <span class="menu-bullet">
@@ -256,7 +242,7 @@
                             </div>
                             <!--end:Menu item-->
                             <!--begin:Menu item-->
-                            <div class="menu-item">
+                            <div class="menu-item child mb-2" id="reload-report-link">
                                 <!--begin:Menu link-->
                                 <a class="menu-link" href="/reloadreport.aspx">
                                     <span class="menu-bullet">
@@ -268,7 +254,7 @@
                             </div>
                             <!--end:Menu item-->
                             <!--begin:Menu item-->
-                            <div class="menu-item">
+                            <div class="menu-item child" id="payment-link">
                                 <!--begin:Menu link-->
                                 <a class="menu-link" href="/paymentsreport.aspx">
                                     <span class="menu-bullet">
@@ -285,7 +271,7 @@
                     <!--end:Menu item-->
 
                     <!--begin:Menu item-->
-                    <div class="menu-item">
+                    <div class="menu-item" id="reload-link">
                          <!--begin:Menu link-->
                         <a class="menu-link main" href="/reload.aspx">
                             <span class="menu-icon">
@@ -311,7 +297,7 @@
                     <!--end:Menu item-->
                     <!--begin:Menu item-->
 
-                    <div class="menu-item">
+                    <div class="menu-item" id="api-link">
                         <a class="menu-link main" href="/api_references.aspx">
                             <!--begin:Menu link-->
                             <span class="menu-icon">
@@ -332,7 +318,7 @@
                     <!--end:Menu item-->
                     <!--begin:Menu item-->
 
-                    <div class="menu-item">
+                    <div class="menu-item" id="cov-link">
                         <a class="menu-link main" href="/cov.aspx">
                             <!--begin:Menu link-->
                             <span class="menu-icon">
@@ -353,7 +339,7 @@
                     <!--end:Menu item-->
                     <!--begin:Menu item-->
 
-                    <div class="menu-item">
+                    <div class="menu-item" id="settings-link">
                         <a class="menu-link main" href="/settings.aspx">
                             <!--begin:Menu link-->
                             <span class="menu-icon">

@@ -10,6 +10,7 @@
 
 <uc1:head runat="server" ID="head" />
 <title>Reseller Admin | SMS Dashboard</title>
+<title>Reseller - Dashboard</title>
 </head>
 <!--end::Head-->
 <!--begin::Body-->

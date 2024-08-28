@@ -14,6 +14,7 @@
 <uc1:head runat="server" ID="head" />
 
 <title> Reseller User | SMS Templates</title>
+<title>Reseller - SMS Templates</title>
 </head>
 <!--end::Head-->
 <!--begin::Body-->

@@ -559,22 +559,6 @@ button.tablinks.active {
 [data-kt-app-layout=dark-sidebar] .app-sidebar .menu .menu-item.hover:not(.here) > .menu-link:not(.disabled):not(.active):not(.here) .menu-arrow:after, [data-kt-app-layout=dark-sidebar] .app-sidebar .menu .menu-item:not(.here) .menu-link:hover:not(.disabled):not(.active):not(.here) .menu-arrow:after {
     background-color: #000000 !important;
 }
-/*span.bullet.bullet-dot:hover {
-    background-color: #0e41c1 !important;
-}
-
-svg.stroke.span.menu-link:hover {
-    stroke: #ffffff !important;
-}
-
-svg.fill:hover {
-    fill: #ffffff;
-}
-
-.menu-item:hover .menu-link  {
-    color: #ffff !important;
-    background: #0e41c1 !important;
-}*/
 
 .menu-item {
     border-radius: 10px !important;
@@ -590,23 +574,22 @@ svg.fill:hover {
     transition: all .2s ease-in-out;
 }
 
-    .menu-item:hover .menu-link.main {
-        background-color: #0e41c1;
-    }
+.menu-item:hover .menu-link.main, .menu-item.active .menu-link.main {
+    background-color: #0e41c1;
+}
 
-.menu-item:hover .menu-link.main .menu-title {
+.menu-item:hover .menu-link.main .menu-title, .menu-item.active .menu-link.main .menu-title {
     color: #FFFFFF;
 }
 
-.menu-item:hover .menu-link.main .menu-icon svg path {
+.menu-item:hover .menu-link.main .menu-icon svg path, .menu-item.active .menu-link.main .menu-icon svg path {
     fill: #FFFFFF;
 }
 
-
-/*span.menu-link.bg-hov:hover {
+.menu-item.child:hover, .menu-item.child.active {
     background-color: #0e41c1;
-    border-radius: 6px;
 }
-span.menu-title.bg-hov:hover {
+
+.menu-item.child:hover .menu-title, .menu-item.child.active .menu-title {
     color: #FFFFFF;
-}*/
+}

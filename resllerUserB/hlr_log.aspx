@@ -12,6 +12,7 @@
 <uc1:head runat="server" ID="head" />
 
 <title>Reseller User | Lookup Log</title>
+<title>Reseller - HLR Log</title>
 </head>
 <!--end::Head-->
 <!--begin::Body-->

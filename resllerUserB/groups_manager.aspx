@@ -11,6 +11,7 @@
 <uc1:head runat="server" ID="head" />
 
 <title>Reseller User | Groups Management</title>
+<title>Reseller - Group Manager</title>
 </head>
 <!--end::Head-->
 <!--begin::Body-->

@@ -15,13 +15,22 @@ namespace resllerUserB
     {
 
         /// <summary>
-        /// kt_sign_in_form control.
+        /// loader control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm kt_sign_in_form;
+        protected global::resllerUserB.controls.loader loader;
+
+        /// <summary>
+        /// sign_in_form control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlForm sign_in_form;
 
         /// <summary>
         /// email control.

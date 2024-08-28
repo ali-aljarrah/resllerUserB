@@ -12,7 +12,7 @@
 
 <uc1:head runat="server" ID="head" />
 
-<title>Help</title>
+<title>Reseller - Help</title>
 </head>
 <!--end::Head-->
 <!--begin::Body-->
