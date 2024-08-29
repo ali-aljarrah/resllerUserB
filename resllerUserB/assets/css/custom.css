@@ -206,20 +206,21 @@ span.menu-link, span.menu-link.menu-center:hover svg path {
 
 .form-custom-input,
 .form-custom-select {
-    background-color: transparent;
-    border: none;
-    border-bottom: 1px solid #121212;
-    border-radius: 0px;
+    background-color: #f4f4f4d1;
+    border-bottom: 1px solid #948484;
+    border-radius: 5px;
 }
 
 .form-custom-textarea {
-    background-color: transparent;
-    border: 1px solid #121212;
+    background-color: #f4f4f4d1;
+    border-bottom: 1px solid #948484;
+    border-radius: 5px;
 }
 
 .form-control.form-custom-textarea:disabled {
     background-color: transparent;
-    border: 1px solid #121212;
+    border-bottom: 1px solid #948484;
+    border-radius: 5px;
 }
 
 .text-gradients-blue {

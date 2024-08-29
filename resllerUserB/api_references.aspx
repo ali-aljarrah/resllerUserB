@@ -47,25 +47,25 @@
                                 <div class="row g-5 g-xl-10 mt-0">
                                     <!--begin::Col-->
                                     <div class="col-xl-12 mb-xl-10 mt-0">
-                                        <div class="mb-10">
+                                        <div class="mb-5">
                                             <ul class="nav nav-tabs nav-line-tabs nav-line-tabs-2x mb-5 fs-6 border-0">
                                                 <li class="nav-item">
-                                                    <a class="nav-link custom-tab active" data-bs-toggle="tab" href="#sms_api_tab">SMS API (3.0)</a>
+                                                    <a class="nav-link custom-tab p-3 active" data-bs-toggle="tab" href="#sms_api_tab">SMS API (3.0)</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link custom-tab" data-bs-toggle="tab" href="#smpp_tab">SMPP (3.4)</a>
+                                                    <a class="nav-link custom-tab p-3" data-bs-toggle="tab" href="#smpp_tab">SMPP (3.4)</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link custom-tab" data-bs-toggle="tab" href="#credits_tab">Account Credits</a>
+                                                    <a class="nav-link custom-tab p-3" data-bs-toggle="tab" href="#credits_tab">Account Credits</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link custom-tab" data-bs-toggle="tab" href="#http_tab">HTTP Callback</a>
+                                                    <a class="nav-link custom-tab p-3" data-bs-toggle="tab" href="#http_tab">HTTP Callback</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link custom-tab" data-bs-toggle="tab" href="#hlr_tab">HLR Lookup</a>
+                                                    <a class="nav-link custom-tab p-3" data-bs-toggle="tab" href="#hlr_tab">HLR Lookup</a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a class="nav-link custom-tab" data-bs-toggle="tab" href="#samples_tab">Code Samples</a>
+                                                    <a class="nav-link custom-tab p-3" data-bs-toggle="tab" href="#samples_tab">Code Samples</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -99,14 +99,14 @@
                                                                     <table class="table custom-table">
                                                                         <thead>
                                                                             <tr>
-                                                                                <th class="white-color fs-16 fw-600">Method</th>
-                                                                                <th class="white-color fs-16 fw-600">API URL</th>
+                                                                                <th class="white-color fs-12 fw-600">Method</th>
+                                                                                <th class="white-color fs-12 fw-600">API URL</th>
                                                                             </tr>
                                                                         </thead>
                                                                         <tbody>
                                                                             <tr class="fs-14 color-black-1">
-                                                                                <td class="color-black-1 fs-16">[Get, Post]</td>
-                                                                                <td class="color-black-1 fs-16"><a target="_blank" href="https://api.reseller.io/bulksms?username=YourUsername&amp;password=YourPassword&amp;mt=MessageType&amp;sid=SenderName&amp;mno=MobileNumber&amp;msg=Message">https://api.reseller.io/bulksms?username=YourUsername&amp;password=YourPassword&amp;mt=MessageType&amp;sid=SenderName&amp;mno=MobileNumber&amp;msg=Message</a></td>
+                                                                                <td class="color-black-1 fs-12">[Get, Post]</td>
+                                                                                <td class="color-black-1 fs-12"><a target="_blank" href="https://api.reseller.io/bulksms?username=YourUsername&amp;password=YourPassword&amp;mt=MessageType&amp;sid=SenderName&amp;mno=MobileNumber&amp;msg=Message">https://api.reseller.io/bulksms?username=YourUsername&amp;password=YourPassword&amp;mt=MessageType&amp;sid=SenderName&amp;mno=MobileNumber&amp;msg=Message</a></td>
                                                                             </tr>
                                                                         </tbody>
                                                                     </table>
@@ -115,25 +115,25 @@
                                                                     <table class="table custom-table">
                                                                         <thead>
                                                                             <tr>
-                                                                                <th class="white-color fs-16 fw-600">Parametres</th>
-                                                                                <th class="white-color fs-16 fw-600">Description</th>
+                                                                                <th class="white-color fs-12 fw-600">Parametres</th>
+                                                                                <th class="white-color fs-12 fw-600">Description</th>
                                                                             </tr>
                                                                         </thead>
                                                                         <tbody>
-                                                                            <tr class="fs-14 color-black-1">
+                                                                            <tr class="fs-12 color-black-1">
                                                                                 <td>Username</td>
                                                                                 <td>Your reseller account username</td>
                                                                             </tr>
-                                                                            <tr class="fs-14 color-black-1">
+                                                                            <tr class="fs-12 color-black-1">
                                                                                 <td>Password</td>
                                                                                 <td>Your reseller account password</td>
                                                                             </tr>
-                                                                            <tr class="fs-14 color-black-1">
+                                                                            <tr class="fs-12 color-black-1">
                                                                                 <td>MT</td>
                                                                                 <td>Message Type ( English = 0, Unicode =1 and for messages in languages other than English =1 )</td>
                                                                             </tr>
                                                                             
-                                                                            <tr class="fs-14 color-black-1">
+                                                                            <tr class="fs-12 color-black-1">
                                                                                 <td>SID</td>
                                                                                 <td>Sender Name<br><br>
                                                                                     When specifying the sender name for your messages, please adhere to the following guidelines to ensure optimal display and compliance:<br><br>
@@ -142,7 +142,7 @@
                                                                                     <strong>SMSC Restrictions:</strong> It's important to be aware that additional restrictions on the sender name field may be enforced by the Short Message Service Center (SMSC). These restrictions may vary, and it's advisable to ensure compliance with any applicable regulations or guidelines set forth by the SMSC.<br><br>
                                                                                 </td>
                                                                             </tr>
-                                                                            <tr class="fs-14 color-black-1">
+                                                                            <tr class="fs-12 color-black-1">
                                                                                 <td>MNO</td>
                                                                                 <td>Recipient Mobile Numbers: Streamlined Delivery for Effective Messaging. <br><br>
                                                                                     To ensure seamless message delivery, please adhere to the following guidelines when specifying the mobile numbers of your recipients:<br><br>
@@ -151,7 +151,7 @@
                                                                                     <strong>Submission Limit:</strong> For each message submission, you can include a maximum of 30 mobile numbers. This limit helps maintain optimal performance and ensures efficient processing of your messaging requests.<br><br>
                                                                                 </td>
                                                                             </tr>
-                                                                            <tr class="fs-14 color-black-1">
+                                                                            <tr class="fs-12 color-black-1">
                                                                                 <td>MSG</td>
                                                                                 <td>Message Content: Ensuring Optimal Length and Concatenation for Effective Delivery<br><br>
                                                                                     When composing your message, please keep the following details in mind to ensure optimal length and proper handling:<br><br>
@@ -230,48 +230,48 @@
                                                                     <table class="table custom-table">
                                                                         <thead>
                                                                             <tr>
-                                                                                <th class="white-color fs-16 fw-600">Code</th>
-                                                                                <th class="white-color fs-16 fw-600">Description</th>
+                                                                                <th class="white-color fs-12 fw-600">Code</th>
+                                                                                <th class="white-color fs-12 fw-600">Description</th>
                                                                             </tr>
                                                                         </thead>
                                                                         <tbody>
-                                                                            <tr class="fs-14 color-black-1">
+                                                                            <tr class="fs-12 color-black-1">
                                                                                 <td>0000</td>
                                                                                 <td>Service is temporarily unavailable or down.</td>
                                                                             </tr>
-                                                                            <tr class="fs-14 color-black-1">
+                                                                            <tr class="fs-12 color-black-1">
                                                                                 <td>000</td>
                                                                                 <td> Please ensure all required parameters are filled in correctly.</td>
                                                                             </tr>
-                                                                            <tr class="fs-14 color-black-1">
+                                                                            <tr class="fs-12 color-black-1">
                                                                                 <td>00</td>
                                                                                 <td>Invalid username or password or trial account expired.</td>
                                                                             </tr>
-                                                                            <tr class="fs-14 color-black-1">
+                                                                            <tr class="fs-12 color-black-1">
                                                                                 <td>0020</td>
                                                                                 <td>Insufficient account credits to perform the operation.</td>
                                                                             </tr>
-                                                                            <tr class="fs-14 color-black-1">
+                                                                            <tr class="fs-12 color-black-1">
                                                                                 <td>0030</td>
                                                                                 <td>Invalid sender name.</td>
                                                                             </tr>
-                                                                            <tr class="fs-14 color-black-1">
+                                                                            <tr class="fs-12 color-black-1">
                                                                                 <td>0041</td>
                                                                                 <td>Invalid mobile number.</td>
                                                                             </tr>
-                                                                            <tr class="fs-14 color-black-1">
+                                                                            <tr class="fs-12 color-black-1">
                                                                                 <td>0042</td>
                                                                                 <td>Network is not supported/ activated.</td>
                                                                             </tr>
-                                                                            <tr class="fs-14 color-black-1">
+                                                                            <tr class="fs-12 color-black-1">
                                                                                 <td>0050</td>
                                                                                 <td>Invalid SMS text message.</td>
                                                                             </tr>
-                                                                            <tr class="fs-14 color-black-1">
+                                                                            <tr class="fs-12 color-black-1">
                                                                                 <td>0051</td>
                                                                                 <td>Invalid message type.</td>
                                                                             </tr>
-                                                                            <tr class="fs-14 color-black-1">
+                                                                            <tr class="fs-12 color-black-1">
                                                                                 <td>0060</td>
                                                                                 <td>Invalid submission limit.</td>
                                                                             </tr>

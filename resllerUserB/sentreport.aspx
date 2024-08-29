@@ -50,9 +50,10 @@
                             <div id="kt_app_content_container" class="app-container container-fluid">
                                 <!--begin::Row-->
                                     <div class="row g-5 g-xl-10 mb-xl-10 mt-0">
+                                        
                                         <!--begin::Col-->
                                         <div class="col-md-12 mb-md-0 mb-5 mt-5">
-                                            <div>
+                                            <div class="card card-flush shadow-xs p-8">
                                                 <div class="fs-18 dark-color fw-bold mb-1">Export Report</div>
                                                 <div class="fs-14 color-neutral-grey">
                                                      For security reasons, older records will be deleted automatically after 30 days.
