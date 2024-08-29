@@ -69,17 +69,17 @@
                                                         <table class="table custom-table">
                                                             <thead>
                                                                 <tr>
-                                                                    <th class="white-color fs-16 fw-600">File name</th>
-                                                                    <th class="white-color fs-16 fw-600">Quantity</th>
-                                                                    <th class="white-color fs-16 fw-600">Modified date</th>
+                                                                    <th class="white-color fs-12 fw-600">File name</th>
+                                                                    <th class="white-color fs-12 fw-600">Quantity</th>
+                                                                    <th class="white-color fs-12 fw-600">Modified date</th>
                                                                     <th></th>
                                                                 </tr>
                                                             </thead>
                                                             <tbody>
                                                                 <tr>
-                                                                    <td class="color-black-1 fs-16">Area 51</td>
-                                                                    <td class="color-black-1 fs-16">1000</td>
-                                                                    <td class="color-black-1 fs-16">11 August 2023, 09:41 AM</td>
+                                                                    <td class="color-black-1 fs-12">Area 51</td>
+                                                                    <td class="color-black-1 fs-12">1000</td>
+                                                                    <td class="color-black-1 fs-12">11 August 2023, 09:41 AM</td>
                                                                     <td class="text-center">
                                                                         <a class="delete-file" href="#">
                                                                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -89,9 +89,9 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td class="color-black-1 fs-16">Chicago</td>
-                                                                    <td class="color-black-1 fs-16">60k</td>
-                                                                    <td class="color-black-1 fs-16">03 August 2023, 09:41 AM</td>
+                                                                    <td class="color-black-1 fs-12">Chicago</td>
+                                                                    <td class="color-black-1 fs-12">60k</td>
+                                                                    <td class="color-black-1 fs-12">03 August 2023, 09:41 AM</td>
                                                                     <td class="text-center">
                                                                         <a class="delete-file" href="#">
                                                                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
@@ -101,9 +101,9 @@
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td class="color-black-1 fs-16">Earth</td>
-                                                                    <td class="color-black-1 fs-16">420</td>
-                                                                    <td class="color-black-1 fs-16">03 August 2023, 09:41 AM</td>
+                                                                    <td class="color-black-1 fs-12">Earth</td>
+                                                                    <td class="color-black-1 fs-12">420</td>
+                                                                    <td class="color-black-1 fs-12">03 August 2023, 09:41 AM</td>
                                                                     <td class="text-center">
                                                                         <a class="delete-file" href="#">
                                                                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">

@@ -109,7 +109,7 @@
                                                     <div class="table-responsive">
                                                         <table id="sent-sms-report" class="table custom-table table-row-gray-300 gy-5 datatable">
                                                             <thead>
-                                                                <tr class="fs-14 fw-600">
+                                                                <tr class="fs-12 fw-600">
                                                                     <th class="white-color">ID</th>
                                                                     <th class="white-color">Status</th>
                                                                     <th class="white-color">Date</th>

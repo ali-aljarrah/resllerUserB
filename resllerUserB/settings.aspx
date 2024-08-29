@@ -58,16 +58,16 @@
                                                 <div class="card-body pb-4 mt-0 pt-0 ps-0 pr-0">
                                                     <ul class="nav nav-tabs nav-line-tabs nav-line-tabs-2x mb-5 fs-6 border-0">
                                                         <li class="nav-item">
-                                                            <a class="nav-link custom-tab active" data-bs-toggle="tab" href="#profile_tab">Profile</a>
+                                                            <a class="nav-link custom-tab p-3 active" data-bs-toggle="tab" href="#profile_tab">Profile</a>
                                                         </li>
                                                         <li class="nav-item">
-                                                            <a class="nav-link custom-tab" data-bs-toggle="tab" href="#security_tab">Security</a>
+                                                            <a class="nav-link custom-tab p-3" data-bs-toggle="tab" href="#security_tab">Security</a>
                                                         </li>
                                                         <li class="nav-item">
-                                                            <a class="nav-link custom-tab" data-bs-toggle="tab" href="#api_tab">API & DLR</a>
+                                                            <a class="nav-link custom-tab p-3" data-bs-toggle="tab" href="#api_tab">API & DLR</a>
                                                         </li>
                                                         <li class="nav-item">
-                                                            <a class="nav-link custom-tab" data-bs-toggle="tab" href="#notifications_tab">Notifications</a>
+                                                            <a class="nav-link custom-tab p-3" data-bs-toggle="tab" href="#notifications_tab">Notifications</a>
                                                         </li>
                                                     </ul>
                                                     <div class="tab-content mt-8" id="myTabContent">

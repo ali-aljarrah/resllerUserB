@@ -511,7 +511,7 @@
                                                                     With our direct-to-carrier SMS solution, your messages will reach recipients faster and more reliably than ever before. Take control, ensure security, and experience the ultimate in SMS customization. Elevate your SMS communication game with us today!
                                                                 </div>
                                                                 <div class="mt-5 pt-5">
-                                                                    <a class="btn btn-primary py-3 px-6 rounded-1" href="#">Get a quote</a>
+                                                                    <a class="btn btn-primary btn-grad py-3 px-6 rounded-1" href="#">Get a quote</a>
                                                                 </div>
                                                             </div>
                                                         </div>

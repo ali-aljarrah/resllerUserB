@@ -77,7 +77,7 @@
                                                         <div class="table-responsive mt-5">
                                                             <table id="hlr_report_table" class="table custom-table table-row-gray-300 gy-5 no-footer dataTable">
                                                                 <thead>
-                                                                    <tr class="fs-14 fw-600 dark-color">
+                                                                    <tr class="fs-12 fw-600 dark-color">
                                                                         <th class="white-color">MSISDN</th>
                                                                         <th class="white-color">State</th>
                                                                         <th class="white-color">Country</th>

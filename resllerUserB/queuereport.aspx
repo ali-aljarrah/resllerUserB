@@ -74,7 +74,7 @@
                                                     <div class="table-responsive">
                                                         <table id="queue-report-table" class="table custom-table table-row-gray-300 gy-5 datatable">
                                                             <thead>
-                                                                <tr class="fs-14 fw-600 dark-color">
+                                                                <tr class="fs-12 fw-600 dark-color">
                                                                     <th class="white-color">Text</th>
                                                                     <th class="white-color">Sender</th>
                                                                     <th class="white-color">Type</th>

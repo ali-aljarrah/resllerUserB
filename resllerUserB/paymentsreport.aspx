@@ -105,7 +105,7 @@
                                                     <div class="table-responsive">
                                                         <table id="payment-report-table" class="table custom-table table-row-gray-300 gy-5 datatable">
                                                             <thead>
-                                                                <tr class="fs-14 fw-600 dark-color">
+                                                                <tr class="fs-12 fw-600 dark-color">
                                                                     <th class="white-color">Trans. Method</th>
                                                                     <th class="white-color">Timestamp</th>
                                                                     <th class="white-color">Amount</th>

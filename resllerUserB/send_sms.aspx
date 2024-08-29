@@ -162,7 +162,7 @@
                                                     <h3 class="card-title card-label fs-20 fw-bold color-black-1">
                                                     Recently Sent Messages
                                                     </h3>
-                                                    <p class="gray fs-14">
+                                                    <p class="gray fs-12">
                                                         This typically includes text messages, emails, or other types of communication. 
                                                     </p>
                                                 </div>
@@ -173,46 +173,46 @@
                                                         <table id="recent-sms-table" class="table custom-table">
                                                             <thead>
                                                                 <tr>
-                                                                    <th class="white-color fs-14 fw-600">Number</th>
-                                                                    <th class="white-color fs-14 fw-600">Sent at</th>
-                                                                    <th class="white-color fs-14 fw-600">Status</th>
+                                                                    <th class="white-color fs-12 fw-600">Number</th>
+                                                                    <th class="white-color fs-12 fw-600">Sent at</th>
+                                                                    <th class="white-color fs-12 fw-600">Status</th>
                                                                 </tr>
                                                             </thead>
                                                             <tbody>
                                                                 <tr>
-                                                                    <td class="color-black-1 fs-14">+600138927737</td>
-                                                                    <td class="color-black-1 fs-14">21 August 2023, 11:23 AM</td>
-                                                                    <td class="text-success fs-14">Delivered</td>
+                                                                    <td class="color-black-1 fs-12">+600138927737</td>
+                                                                    <td class="color-black-1 fs-12">21 August 2023, 11:23 AM</td>
+                                                                    <td class="text-success fs-12">Delivered</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td class="color-black-1 fs-14">+600138927737</td>
-                                                                    <td class="color-black-1 fs-14">21 August 2023, 11:23 AM</td>
-                                                                    <td class="text-success fs-14">Delivered</td>
+                                                                    <td class="color-black-1 fs-12">+600138927737</td>
+                                                                    <td class="color-black-1 fs-12">21 August 2023, 11:23 AM</td>
+                                                                    <td class="text-success fs-12">Delivered</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td class="color-black-1 fs-14">+600138927737</td>
-                                                                    <td class="color-black-1 fs-14">21 August 2023, 11:23 AM</td>
-                                                                    <td class="text-success fs-14">Delivered</td>
+                                                                    <td class="color-black-1 fs-12">+600138927737</td>
+                                                                    <td class="color-black-1 fs-12">21 August 2023, 11:23 AM</td>
+                                                                    <td class="text-success fs-12">Delivered</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td class="color-black-1 fs-14">+600138927737</td>
-                                                                    <td class="color-black-1 fs-14">21 August 2023, 11:23 AM</td>
-                                                                    <td class="text-success fs-14">Delivered</td>
+                                                                    <td class="color-black-1 fs-12">+600138927737</td>
+                                                                    <td class="color-black-1 fs-12">21 August 2023, 11:23 AM</td>
+                                                                    <td class="text-success fs-12">Delivered</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td class="color-black-1 fs-14">+600138927737</td>
-                                                                    <td class="color-black-1 fs-14">21 August 2023, 11:23 AM</td>
-                                                                    <td class="text-success fs-14">Delivered</td>
+                                                                    <td class="color-black-1 fs-12">+600138927737</td>
+                                                                    <td class="color-black-1 fs-12">21 August 2023, 11:23 AM</td>
+                                                                    <td class="text-success fs-12">Delivered</td>
                                                                 </tr>
                                                                  <tr>
-                                                                   <td class="color-black-1 fs-14">+600138927737</td>
-                                                                   <td class="color-black-1 fs-14">21 August 2023, 11:23 AM</td>
-                                                                   <td class="text-success fs-14">Delivered</td>
+                                                                   <td class="color-black-1 fs-12">+600138927737</td>
+                                                                   <td class="color-black-1 fs-12">21 August 2023, 11:23 AM</td>
+                                                                   <td class="text-success fs-12">Delivered</td>
                                                                </tr>
                                                                <tr>
-                                                                   <td class="color-black-1 fs-14">+600138927737</td>
-                                                                   <td class="color-black-1 fs-14">21 August 2023, 11:23 AM</td>
-                                                                   <td class="text-success fs-14">Delivered</td>
+                                                                   <td class="color-black-1 fs-12">+600138927737</td>
+                                                                   <td class="color-black-1 fs-12">21 August 2023, 11:23 AM</td>
+                                                                   <td class="text-success fs-12">Delivered</td>
                                                                </tr>
                                                             </tbody>
                                                         </table>

@@ -327,6 +327,22 @@ button.btn.btn-secondary.buttons-pdf.buttons-html5 {
     border-bottom-width: 2px;
 }
 
+.nav-line-tabs.nav-line-tabs-2x {
+    border-bottom-width: 0px;
+}
+
+
+    .nav-line-tabs.nav-line-tabs-2x .nav-item .nav-link.active, .nav-line-tabs.nav-line-tabs-2x .nav-item .nav-link:hover:not(.disabled), .nav-line-tabs.nav-line-tabs-2x .nav-item.show .nav-link {
+        background: #0f204b;
+        border: none !important;
+        border-radius: 20px !important;
+        color: white !important;
+        margin-bottom: .75rem !important;
+        padding:10px;
+    }
+
+
+
 :not(pre) > code[class*=language-], pre[class*=language-] {
     background: #121212 !important;
     border-radius: 10px;
@@ -566,36 +582,49 @@ button.tablinks.active {
     background-color: #000000 !important;
 }
 
-.menu-item {
+.menu-item .menu-link {
     border-radius: 10px !important;
     transition: all .2s ease-in-out;
 }
 
-.menu-item .menu-link .menu-title {
-    color: #000000;
-    transition: all .2s ease-in-out;
-}
+    .menu-item .menu-link .menu-title {
+        color: #000000;
+        transition: all .2s ease-in-out;
+    }
 
-.menu-item .menu-link .menu-icon svg path {
-    transition: all .2s ease-in-out;
-}
+    .menu-item .menu-link .menu-icon svg path {
+        transition: all .2s ease-in-out;
+    }
+
 
 .menu-item:hover .menu-link.main, .menu-item.active .menu-link.main {
     background-color: #0f204b;
 }
 
-.menu-item:hover .menu-link.main .menu-title, .menu-item.active .menu-link.main .menu-title {
-    color: #FFFFFF;
-}
+    .menu-item:hover .menu-link.main .menu-title, .menu-item.active .menu-link.main .menu-title {
+        color: #FFFFFF !important;
+    }
 
-.menu-item:hover .menu-link.main .menu-icon svg path, .menu-item.active .menu-link.main .menu-icon svg path {
-    fill: #FFFFFF;
-}
+    .menu-item:hover .menu-link.main .menu-icon svg path, .menu-item.active .menu-link.main .menu-icon svg path {
+        fill: #FFFFFF;
+    }
 
-.menu-item.child:hover, .menu-item.child.active {
+.menu-item.child:hover .menu-link, .menu-item.child.active .menu-link {
     background-color: #0f204b;
 }
 
 .menu-item.child:hover .menu-title, .menu-item.child.active .menu-title {
-    color: #FFFFFF;
+    color: #FFFFFF !important;
+}
+
+.btn-prem-top-menu {
+    padding-top: 16px !important;
+}
+
+.active > .page-link, .page-link.active {
+    background-color: #0f204b;
+}
+
+select {
+    cursor: pointer;
 }
