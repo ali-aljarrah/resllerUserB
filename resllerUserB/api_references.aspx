@@ -43,7 +43,7 @@
                         <div id="kt_app_content" class="app-content flex-column-fluid">
                             <!--begin::Content container-->
                             <div id="kt_app_content_container" class="app-container container-fluid">
-                                                               <!--begin::Row-->
+                               <!--begin::Row-->
                                 <div class="row g-5 g-xl-10 mt-0">
                                     <!--begin::Col-->
                                     <div class="col-xl-12 mb-xl-10 mt-0">
@@ -73,7 +73,7 @@
                                         <div class="card card-flush shadow-xs">
                                             <!--begin::Body-->
                                             <div class="card-body">
-                                            <div class="tab-content mt-0" id="myTabContent">
+                                                   <div class="tab-content mt-0" id="myTabContent">
                                                         <div class="tab-pane fade show active" id="sms_api_tab" role="tabpanel">
                                                             <div>
                                                                 <div class="fs-20 color-black-1 fw-600 mb-3">SMS API (3.0)</div>
@@ -914,7 +914,7 @@ End If</code></pre>
                                 <!--end::Row-->
                             </div>
                             <!--end::Content container-->
-                        </div>
+                    </div>
                         <!--end::Content-->
                     </div>
                     <!--end::Content wrapper-->
@@ -926,8 +926,7 @@ End If</code></pre>
             </div>
             <!--end::Wrapper-->
         </div>
-        <!--end::Page-->
-    </div>
+    <!--end::Page-->
     <!--end::App-->
 
     <uc1:footerLinks runat="server" ID="footerLinks" />

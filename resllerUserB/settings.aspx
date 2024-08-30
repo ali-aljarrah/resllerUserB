@@ -19,14 +19,14 @@
 <!--end::Head-->
 <!--begin::Body-->
 <body id="kt_app_body" data-kt-app-header-fixed="true" data-kt-app-sidebar-enabled="true" data-kt-app-sidebar-fixed="true" data-kt-app-sidebar-hoverable="true" data-kt-app-sidebar-push-header="true" data-kt-app-sidebar-push-toolbar="true" data-kt-app-sidebar-push-footer="true" data-kt-app-toolbar-enabled="true" class="app-default">
-       <form class="mt-4" action="#" method="Post" name="frmpd" id="frmpd" runat="server">
+    <form class="mt-4" action="#" method="Post" name="frmpd" id="frmpd" runat="server">
     <uc1:loader runat="server" ID="loader" />
     <!--begin::Theme mode setup on page load-->
     <script>var defaultThemeMode = "light"; var themeMode; if (document.documentElement) { if (document.documentElement.hasAttribute("data-bs-theme-mode")) { themeMode = document.documentElement.getAttribute("data-bs-theme-mode"); } else { if (localStorage.getItem("data-bs-theme") !== null) { themeMode = localStorage.getItem("data-bs-theme"); } else { themeMode = defaultThemeMode; } } if (themeMode === "system") { themeMode = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"; } document.documentElement.setAttribute("data-bs-theme", themeMode); }</script>
     <!--end::Theme mode setup on page load-->
 
-    <!--begin::App-->
-    <div class="d-flex flex-column flex-root app-root" id="kt_app_root">
+      <!--begin::App-->
+      <div class="d-flex flex-column flex-root app-root" id="kt_app_root">
         <!--begin::Page-->
         <div class="app-page flex-column flex-column-fluid" id="kt_app_page">
 
@@ -43,7 +43,6 @@
                 <div class="app-main flex-column flex-row-fluid" id="kt_app_main">
                     <!--begin::Content wrapper-->
                     <div class="d-flex flex-column flex-column-fluid">
-
                         <!--begin::Content-->
                         <div id="kt_app_content" class="app-content flex-column-fluid">
                             <!--begin::Content container-->
@@ -53,10 +52,8 @@
                                         <!--begin::Col-->
                                         <div class="col-md-12 mb-md-0 mb-5 mt-0">
                                             <!--begin::Card widget 4-->
-                                            <div class="card card-flush h-100 border-0 shadow-none">
-                                                <!--begin::Card body-->
-                                                <div class="card-body pb-4 mt-0 pt-0 ps-0 pr-0">
-                                                    <ul class="nav nav-tabs nav-line-tabs nav-line-tabs-2x mb-5 fs-6 border-0">
+                                            <div class="mb-5">
+                                                 <ul class="nav nav-tabs nav-line-tabs nav-line-tabs-2x mb-5 fs-6 border-0">
                                                         <li class="nav-item">
                                                             <a class="nav-link custom-tab p-3 active" data-bs-toggle="tab" href="#profile_tab">Profile</a>
                                                         </li>
@@ -69,12 +66,15 @@
                                                         <li class="nav-item">
                                                             <a class="nav-link custom-tab p-3" data-bs-toggle="tab" href="#notifications_tab">Notifications</a>
                                                         </li>
-                                                    </ul>
-                                                    <div class="tab-content mt-8" id="myTabContent">
+                                                   </ul>
+                                            </div>
+                                            <div class="card card-flush shadow-xs">
+                                                <!--begin::Card body-->
+                                                <div class="card-body">
+                                                    <div class="tab-content mt-5" id="myTabContent">
                                                         <div class="tab-pane fade show active" id="profile_tab" role="tabpanel">
                                                             <div class="row">
                                                                 <div class="col-md-12">
-                                                                    <div class="card-body shadow-xs rounded-4">
                                                                         <!--begin::Page title-->
                                                                         <div class="page-title d-flex flex-column justify-content-center gap-1">
                                                                             <!--begin::Title-->
@@ -368,16 +368,13 @@
                                                                                 CssClass="btn btn-grad py-2 px-8 rounded-1"
                                                                                 OnClientClick="profileInfoSubmit('btnsubmit_personal'); return false;" OnClick="btnsubmit_personal_Click" />
                                                                         </div>
-
-                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                         <div class="tab-pane fade" id="security_tab" role="tabpanel">
                                                             <div class="row">
                                                                 <div class="col-md-12">
-                                                                    <div>
-                                                                        <div class="card-body shadow-xs rounded-4">
+                                                                      <div>
                                                                             <!--begin::Page title-->
                                                                             <div class="page-title d-flex flex-column justify-content-center gap-1">
                                                                                 <!--begin::Title-->
@@ -409,9 +406,7 @@
                                                                                         OnClientClick="updatePasswordSubmit('btnsubmit_password'); return false;" OnClick="btnsubmit_password_Click" />
                                                                                 </div>
                                                                             </div>
-                                                                        </div>
                                                                         <div class="mt-18">
-                                                                            <div class="card-body shadow-xs rounded-4">
                                                                                 <!--begin::Page title-->
                                                                                 <div class="page-title d-flex flex-column justify-content-center gap-1">
                                                                                     <!--begin::Title-->
@@ -441,9 +436,8 @@
                                                                                             CssClass="btn btn-grad py-2 px-8 rounded-1" OnClick="btnsubmit_2fa_Click" />
                                                                                     </div>
                                                                                 </div>
-                                                                            </div>
                                                                         </div>
-                                                                    </div>
+                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -451,7 +445,6 @@
                                                             <div class="row">
                                                                 <div class="col-md-12">
                                                                     <div>
-                                                                        <div class="card-body shadow-xs rounded-4">
                                                                             <!--begin::Page title-->
                                                                             <div class="page-title d-flex flex-column justify-content-center gap-1">
                                                                                 <!--begin::Title-->
@@ -493,9 +486,7 @@
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
-                                                                        </div>
                                                                         <div class="mt-18">
-                                                                            <div class="card-body shadow-xs rounded-4">
                                                                                 <!--begin::Page title-->
                                                                                 <div class="page-title d-flex flex-column justify-content-center gap-1">
                                                                                     <!--begin::Title-->
@@ -520,7 +511,6 @@
                                                                                              OnClientClick="dlrSubmit('btnsubmit_dlr'); return false;" OnClick="btnsubmit_dlr_Click" />
                                                                                     </div>
                                                                                 </div>
-                                                                            </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -530,7 +520,6 @@
                                                             <div class="row">
                                                                 <div class="col-md-12">
                                                                     <div>
-                                                                        <div class="card-body shadow-xs rounded-4">
                                                                             <!--begin::Page title-->
                                                                             <div class="page-title d-flex flex-column justify-content-center gap-1">
                                                                                 <!--begin::Title-->
@@ -579,7 +568,6 @@
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
-                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -599,8 +587,8 @@
                             <!--end::Content-->
                         </div>
                         <!--end::Content wrapper-->
-                        <uc1:footer runat="server" ID="footer" />
-                    </div>
+                </div>
+                 <uc1:footer runat="server" ID="footer" />
                     <!--end:::Main-->
                 </div>
                 <!--end::Wrapper-->
