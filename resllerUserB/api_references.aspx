@@ -10,7 +10,6 @@
 <link href="assets/css/prism.css" rel="stylesheet" />
 
 <title>Reseller User | API References</title>
-<title>Reseller - API References</title>
 </head>
 <!--end::Head-->
 <!--begin::Body-->

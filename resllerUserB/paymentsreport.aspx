@@ -14,7 +14,6 @@
 <uc1:head runat="server" ID="head" />
 
  <title> Reseller User | Account Payment History</title>
- <title>Reseller - Account Payment History</title>
         <style>
 			@media screen {
 				#printSection {

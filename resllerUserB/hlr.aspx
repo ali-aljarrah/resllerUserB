@@ -13,7 +13,6 @@
 <uc1:head runat="server" ID="head" />
 
 <title>Reseller User | Single Lookup</title>
-<title>Reseller - HLR Lookup</title>
 </head>
 <!--end::Head-->
 <!--begin::Body-->

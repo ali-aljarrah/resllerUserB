@@ -12,7 +12,6 @@
 <uc1:head runat="server" ID="head" />
 
 <title>Reseller User | Coverage</title>
-<title>Reseller - Coverage</title>
 </head>
 <!--end::Head-->
 <!--begin::Body-->

@@ -14,7 +14,6 @@
 <uc1:head runat="server" ID="head" />
 
 <title>Reseller User | Single SMS</title>
-<title>Reseller - Send Single SMS</title>
 </head>
 <!--end::Head-->
 <!--begin::Body-->
@@ -51,7 +50,7 @@
                                 <!--begin::Row-->
                                     <div class="row g-5 g-xl-10">
                                         <!--begin::Col-->
-                                        <div class="col-xl-12 mb-xl-10">
+                                        <div class="col-xl-12">
                                             <!--begin::List widget 10-->
                                             <div class="card card-flush shadow-xs">
                                                 <!--begin::Header-->
