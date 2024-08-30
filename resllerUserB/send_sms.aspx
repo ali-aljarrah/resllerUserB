@@ -51,7 +51,7 @@
                                 <!--begin::Row-->
                                     <div class="row g-5 g-xl-10">
                                         <!--begin::Col-->
-                                        <div class="col-xl-8 mb-xl-10">
+                                        <div class="col-xl-12 mb-xl-10">
                                             <!--begin::List widget 10-->
                                             <div class="card card-flush shadow-xs">
                                                 <!--begin::Header-->
@@ -65,7 +65,7 @@
                                                     Easily send messages to multiple numbers by adding commas between them. You can send to a maximum of 30 numbers each time. Happy texting!
                                                     </p>
                                                     <div class="row g-5 g-xl-10">
-                                                        <div class="col-xl-8 mb-xl-10">
+                                                        <div class="col-xl-6">
                                                            <!--begin::Alert-->
                                                             <div class="alert alert-primary d-flex align-items-center p-1">
                                                                     <!--begin::Icon-->
@@ -86,12 +86,12 @@
                                                 <!--end::Header-->
                                                 <!--begin::Body-->
                                                 <div class="card-body">
-                                                    <div>
-                                                        <div class="mb-8">
+                                                    <div class="row">
+                                                        <div class="col-xl-4 mb-8">
                                                             <label for="txtSender" class="form-label fs-14 color-black-1 required">Sender name</label>
                                                             <input runat="server" type="text" class="form-control form-custom-input" name="txtSender" id="txtSender" placeholder="Sender name" data-bs-toggle="tooltip" data-bs-placement="top" title="Please Enter Sender For Message,Max length for numeric:18 and alphanumeric:11"/>
                                                         </div>
-                                                        <div class="mb-8">
+                                                        <div class="col-xl-4 mb-8">
                                                             <label for="cmbMessageType" class="form-label fs-14 color-black-1 required">SMS type</label>
                                                             <select runat="server" class="form-select form-custom-select" onchange="javascript:setMessageLength();" id="cmbMessageType" name="cmbMessageType" data-bs-toggle="tooltip" data-bs-trigger="hover" data-bs-placement="top" title="Please Select Message Type">
                                                                 <option value="">Please select one</option>
@@ -100,7 +100,7 @@
                                                                 <option value="9">Unicode</option>
                                                             </select>
                                                         </div>
-                                                        <div class="mb-8">
+                                                        <div class="col-xl-4 mb-8">
                                                             <label for="txtNumber" class="form-label fs-14 color-black-1 required">Mobile number</label>
                                                             <input runat="server" type="text" class="form-control form-custom-input" onkeypress="return goodchars(event,'0123456789,+');" name="txtNumber" id="txtNumber" placeholder="Use number with country code" data-bs-toggle="tooltip" data-bs-placement="top" title="Please Enter Mobile Number,Maximum 30 numbers can be added seperated by comma.."/>
                                                         </div>
@@ -153,7 +153,7 @@
                                         </div>
                                         <!--end::Col-->
                                         <!--begin::Col-->
-                                        <div class="col-xl-4">
+                                        <div class="col-xl-12">
                                             <!--begin::List widget 10-->
                                             <div class="card card-flush shadow-xs">
                                                 <!--begin::Header-->

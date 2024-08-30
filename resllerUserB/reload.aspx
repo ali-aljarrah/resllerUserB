@@ -50,16 +50,16 @@
                                 <!--begin::Row-->
                                     <div class="row g-5 g-xl-10 mb-xl-10 mt-0">
                                         <!--begin::Col-->
-                                        <div class="col-md-9 mb-md-0 mb-5 mt-5">
-                                            <!--begin::Page title-->
-                                            <div class="page-title d-flex flex-column justify-content-center gap-1">
-                                                <!--begin::Title-->
-                                                <h1 class="page-heading d-flex flex-column justify-content-center text-dark fw-bold m-1 pb-5">Chose your plane</h1>
-                                                <!--end::Title-->
-                                            </div>
-                                            <!--end::Page title-->
+                                        <div class="col-md-9 mb-md-0 mb-5 mt-0">
                                             <!--begin::Card widget 4-->
                                             <div class="card card-flush p-8 border-0">
+                                                 <!--begin::Page title-->
+                                                     <div class="page-title d-flex flex-column justify-content-center gap-1">
+                                                         <!--begin::Title-->
+                                                         <h1 class="page-heading d-flex flex-column justify-content-center text-dark fw-bold m-1 pb-5">Chose your plane</h1>
+                                                         <!--end::Title-->
+                                                     </div>
+                                                 <!--end::Page title-->
                                                 <!--begin::Card body-->
                                                 <div class="card-body d-flex shadow-xs bg-gradient rounded-4">
                                                     <div class="mw-100 d-flex align-items-center">
@@ -497,7 +497,7 @@
                                             <hr class="my-10" />
                                             <div class="row mt-0">
                                                 <div class="col-md-12">
-                                                    <div class="card card-flush bg-soft-gray shadow-xs h-lg-100">
+                                                    <div class="card card-flush shadow-xs h-lg-100">
                                                         <div class="pro-plan mw-100 p-5 m-0">
                                                             <div>
                                                                 <div class="fs-14 fw-600 mb-3">

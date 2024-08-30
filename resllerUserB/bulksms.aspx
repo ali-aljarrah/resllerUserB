@@ -61,12 +61,12 @@
                                                 <!--end::Header-->
                                                 <!--begin::Body-->
                                                 <div class="card-body">
-                                                    <div>
-                                                        <div class="mb-8">
+                                                    <div class="row">
+                                                        <div class="col-6 mb-8">
                                                             <label for="txtSender" class="form-label fs-14 color-black-1 required">Sender name</label>
                                                             <input runat="server" type="text" class="form-control form-custom-input" name="txtSender" id="txtSender" placeholder="Sender name" data-bs-toggle="tooltip" data-bs-placement="top" title="Please Enter Sender For Message,Max length for numeric:18 and alphanumeric:11" />
                                                         </div>
-                                                        <div class="mb-8">
+                                                        <div class="col-6 mb-8">
                                                             <label for="cmbMessageType" class="form-label fs-14 color-black-1 required">SMS type</label>
                                                             <select runat="server" class="form-select form-custom-select" onchange="javascript:setMessageLength();" id="cmbMessageType" name="cmbMessageType" data-bs-toggle="tooltip" data-bs-placement="top" title="Please Select Message Type">
                                                                 <option value="">Please select one</option>
@@ -75,14 +75,14 @@
                                                                 <option value="9">Unicode</option>
                                                             </select>
                                                         </div>
-                                                        <div class="mb-8">
+                                                        <div class="col-12 mb-8">
                                                             <label for="selectedFiles" class="form-label fs-14 color-black-1">Selected files</label>
                                                             <textarea runat="server" name="selectedFiles" rows="4" id="selectedFiles" placeholder="Selected file's names." class="form-control form-custom-textarea" size="30" maxlength="765" data-bs-toggle="tooltip" data-bs-placement="top" title="This block will show the selected files" readonly></textarea>
                                                             <div class="fs-12 text-gradients-blue">
                                                                 <span id="files-count">0</span> files : <span id="number-count">0</span> numbers
                                                             </div>
                                                         </div>
-                                                        <div class="mb-8">
+                                                        <div class="col-12 mb-8">
                                                             <div class="d-flex justify-content-between align-items-center">
                                                                 <label for="txtMessage" class="form-label fs-14 color-black-1 required">Message</label>
                                                                 <div class="d-flex justify-content-end align-items-end mb-2">

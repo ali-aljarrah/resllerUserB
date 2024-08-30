@@ -167,7 +167,7 @@
                                                 </div>
                                                 <!--end::Row-->
                                                 <!--begin::Page title-->
-                                                <div class="card card-flush shadow-xs border-0 py-5 px-5">
+                                                <div class="card card-flush shadow-xs border-0 p-8 px-6">
 
                                                 <div class="d-flex flex-column justify-content-center gap-1">
                                                     <!--begin::Title-->
