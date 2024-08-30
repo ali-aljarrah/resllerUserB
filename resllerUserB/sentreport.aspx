@@ -169,43 +169,45 @@
                                         <!--end::Col-->
                                         <!--begin::Col-->
                                         <div class="col-md-12 mb-md-0 mt-md-0 mb-5 mt-5">
-                                            <div class="custom-border-left h-100 mt-10 mt-md-0">
-                                                <div class="p-8">
-                                                    <div>
-                                                        <div class="d-flex justify-content-start align-items-center mb-1">
-                                                            <div class="dark-color fs-16 fw-bold me-3">
-                                                                Downloadable Reports
+                                            <div class="card card-flush shadow-xs p-8 mt-5">
+                                                <div class="custom-border-left h-100 mt-10 mt-md-0">
+                                                    <div class="p-2">
+                                                        <div>
+                                                            <div class="d-flex justify-content-start align-items-center mb-1">
+                                                                <div class="dark-color fs-16 fw-bold me-3">
+                                                                    Downloadable Reports
+                                                                </div>
+                                                                <span class="fs-12 text-success fw-500 bg-green px-2 py-1">3 reports ready</span>
                                                             </div>
-                                                            <span class="fs-12 text-success fw-500 bg-green px-2 py-1">3 reports ready</span>
+                                                            <p class="fs-12 color-neutral-grey mb-0">
+                                                                Please note that the export time may vary depending on the size of the data.
+                                                            </p>
                                                         </div>
-                                                        <p class="fs-12 color-neutral-grey mb-0">
-                                                            Please note that the export time may vary depending on the size of the data.
-                                                        </p>
-                                                    </div>
-                                                    <div class="d-flex flex-wrap align-items-center mt-6">
-                                                        <div class="me-5">
-                                                            <a href="#">
-                                                                <div class="fs-12 cyan-color fw-bold cyan-bg rounded-2 p-2 cyan-border mb-4 w-fit">
-                                                                    <i class="bi bi-file-earmark-bar-graph cyan-color me-1"></i>
-                                                                    <span>021-2023-01-29-2023-01-30.zip</span>
-                                                                </div>
-                                                            </a>
-                                                        </div>
-                                                        <div class="me-5">
-                                                            <a href="#">
-                                                                <div class="fs-12 cyan-color fw-bold cyan-bg rounded-2 p-2 cyan-border mb-4 w-fit">
-                                                                    <i class="bi bi-file-earmark-bar-graph cyan-color me-1"></i>
-                                                                    <span>021-2023-01-29-2023-01-30.zip</span>
-                                                                </div>
-                                                            </a>
-                                                        </div>
-                                                        <div class="me-5">
-                                                            <a href="#">
-                                                                <div class="fs-12 cyan-color fw-bold cyan-bg rounded-2 p-2 cyan-border mb-4 w-fit">
-                                                                    <i class="bi bi-file-earmark-bar-graph cyan-color me-1"></i>
-                                                                    <span>021-2023-01-29-2023-01-30.zip</span>
-                                                                </div>
-                                                            </a>
+                                                        <div class="d-flex flex-wrap align-items-center mt-6">
+                                                            <div class="me-5">
+                                                                <a href="#">
+                                                                    <div class="fs-12 cyan-color fw-bold cyan-bg rounded-2 p-2 cyan-border mb-4 w-fit">
+                                                                        <i class="bi bi-file-earmark-bar-graph cyan-color me-1"></i>
+                                                                        <span>021-2023-01-29-2023-01-30.zip</span>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="me-5">
+                                                                <a href="#">
+                                                                    <div class="fs-12 cyan-color fw-bold cyan-bg rounded-2 p-2 cyan-border mb-4 w-fit">
+                                                                        <i class="bi bi-file-earmark-bar-graph cyan-color me-1"></i>
+                                                                        <span>021-2023-01-29-2023-01-30.zip</span>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="me-5">
+                                                                <a href="#">
+                                                                    <div class="fs-12 cyan-color fw-bold cyan-bg rounded-2 p-2 cyan-border mb-4 w-fit">
+                                                                        <i class="bi bi-file-earmark-bar-graph cyan-color me-1"></i>
+                                                                        <span>021-2023-01-29-2023-01-30.zip</span>
+                                                                    </div>
+                                                                </a>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>

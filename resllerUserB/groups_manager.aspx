@@ -52,7 +52,7 @@
                                             <!--begin::List widget 10-->
                                             <div class="card card-flush shadow-xs">
                                                 <!--begin::Header-->
-                                                <div class="card-header d-block pt-7">
+                                                <div class="card-header d-block pt-7 pb-7">
                                                     <!--begin::Title-->
                                                     <h3 class="card-title card-label fs-20 fw-bold color-black-1">Files List <span class="fs-12 ms-2 color-light-blue fw-500 bg-light-blue rounded-2 px-2 py-1">3 available</span>
                                                     </h3>

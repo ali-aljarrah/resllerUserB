@@ -52,7 +52,7 @@
                                         <!--begin::Col-->
                                         <div class="col-md-9 mb-md-0 mb-5 mt-0">
                                             <!--begin::Card widget 4-->
-                                            <div class="card card-flush p-8 border-0">
+                                            <div class="card card-flush shadow-xs p-8 border-0">
                                                  <!--begin::Page title-->
                                                      <div class="page-title d-flex flex-column justify-content-center gap-1">
                                                          <!--begin::Title-->

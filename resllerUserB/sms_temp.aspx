@@ -89,11 +89,11 @@
                                         </div>
                                         <!--end::Col-->
                                         <!--begin::Col-->
-                                        <div class="col-xl-4">
+                                        <div class="col-xl-4 mb-xl-10">
                                             <!--begin::List widget 10-->
                                             <div class="card card-flush shadow-xs">
                                                 <!--begin::Header-->
-                                                <div class="card-header d-block pt-7">
+                                                <div class="card-header d-block pt-7 pb-8">
                                                     <!--begin::Title-->
                                                     <h3 class="card-title card-label fs-20 fw-bold color-black-1">Templates List <span class="fs-12 ms-2 color-light-blue fw-500 bg-light-blue rounded-2 px-2 py-1">8 available</span>
                                                     </h3>
