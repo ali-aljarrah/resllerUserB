@@ -349,6 +349,7 @@
     <Content Include="assets\js\custom\authentication\sign-in\two-fa-other.js" />
     <Content Include="assets\js\custom\authentication\sign-in\two-factor.js" />
     <Content Include="assets\js\custom\authentication\sign-up\general.js" />
+    <Content Include="assets\js\edit-sender-filter.js" />
     <Content Include="assets\js\hlr-log.js" />
     <Content Include="assets\js\hlr.js" />
     <Content Include="assets\js\main.js" />
@@ -360,6 +361,7 @@
     <Content Include="assets\js\reload_report.js" />
     <Content Include="assets\js\scripts.bundle.js" />
     <Content Include="assets\js\sendbulk.js" />
+    <Content Include="assets\js\sender-id-filter.js" />
     <Content Include="assets\js\sendsms.js" />
     <Content Include="assets\js\sentreport.js" />
     <Content Include="assets\js\settings.js" />
@@ -442,6 +444,7 @@
     <Content Include="controls\menuTop.ascx" />
     <Content Include="controls\sideBar.ascx" />
     <Content Include="cov.aspx" />
+    <Content Include="edit-sender-filter.aspx" />
     <Content Include="forgot.aspx" />
     <Content Include="groups_manager.aspx" />
     <Content Include="help.aspx" />
@@ -454,6 +457,7 @@
     <Content Include="register.aspx" />
     <Content Include="reload.aspx" />
     <Content Include="reloadreport.aspx" />
+    <Content Include="sender-id-filter.aspx" />
     <Content Include="send_sms.aspx" />
     <Content Include="sentreport.aspx" />
     <Content Include="settings.aspx" />
@@ -545,6 +549,13 @@
     <Compile Include="cov.aspx.designer.cs">
       <DependentUpon>cov.aspx</DependentUpon>
     </Compile>
+    <Compile Include="edit-sender-filter.aspx.cs">
+      <DependentUpon>edit-sender-filter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="edit-sender-filter.aspx.designer.cs">
+      <DependentUpon>edit-sender-filter.aspx</DependentUpon>
+    </Compile>
     <Compile Include="forgot.aspx.cs">
       <DependentUpon>forgot.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -629,6 +640,13 @@
     </Compile>
     <Compile Include="reloadreport.aspx.designer.cs">
       <DependentUpon>reloadreport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sender-id-filter.aspx.cs">
+      <DependentUpon>sender-id-filter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sender-id-filter.aspx.designer.cs">
+      <DependentUpon>sender-id-filter.aspx</DependentUpon>
     </Compile>
     <Compile Include="send_sms.aspx.cs">
       <DependentUpon>send_sms.aspx</DependentUpon>
