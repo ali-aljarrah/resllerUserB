@@ -7,33 +7,14 @@ using System.Web.UI.WebControls;
 
 namespace resllerUserB
 {
-    public partial class sms_temp : System.Web.UI.Page
+    public partial class edit_sms_template : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (IsPostBack)
-            {
-                string eventTarget = Request["__EVENTTARGET"];
-                string eventArgument = Request["__EVENTARGUMENT"];
 
-                if (!string.IsNullOrEmpty(eventTarget))
-                {
-                    if (eventTarget == "DeleteTemplate")
-                    {
-                        // Handle the delete action
-                        DeleteTemplate(eventArgument);
-                    }
-                }
-            }
-        }
-        private void DeleteTemplate(string TemplateID)
-        {
-            string script = $"toastr.success(\"Template: {TemplateID} has been deleted!\");";
-            ScriptManager.RegisterStartupScript(this, GetType(), "showalert", script, true);
-            return;
         }
 
-        protected void savetempbtn_Click(object sender, EventArgs e)
+        protected void EditSMSTemplateBtn_Click(object sender, EventArgs e)
         {
             string script;
 
@@ -55,5 +36,6 @@ namespace resllerUserB
             ScriptManager.RegisterStartupScript(this, GetType(), "showalert", script, true);
             return;
         }
+ 
     }
 }

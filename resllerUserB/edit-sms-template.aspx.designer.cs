@@ -11,107 +11,89 @@ namespace resllerUserB
 {
 
 
-    public partial class edit_sender_filter
+    public partial class edit_sms_template
     {
 
         /// <summary>
-        /// Head control.
+        /// head control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::resllerUserB.controls.head Head;
+        protected global::resllerUserB.controls.head head;
 
         /// <summary>
-        /// editSenderfilterform control.
+        /// temp_form control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm editSenderfilterform;
+        protected global::System.Web.UI.HtmlControls.HtmlForm temp_form;
 
         /// <summary>
-        /// Loader control.
+        /// loader control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::resllerUserB.controls.loader Loader;
+        protected global::resllerUserB.controls.loader loader;
 
         /// <summary>
-        /// MenuTop control.
+        /// menuTop control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::resellerUserA.Controls.menuTop MenuTop;
+        protected global::resellerUserA.Controls.menuTop menuTop;
 
         /// <summary>
-        /// SideBar control.
+        /// sideBar control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::resllerUserB.controls.sideBar SideBar;
+        protected global::resllerUserB.controls.sideBar sideBar;
 
         /// <summary>
-        /// senderName control.
+        /// temp_name control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText senderName;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText temp_name;
 
         /// <summary>
-        /// senderStatus control.
+        /// temp_msg control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlSelect senderStatus;
+        protected global::System.Web.UI.HtmlControls.HtmlTextArea temp_msg;
 
         /// <summary>
-        /// AllUsers control.
+        /// EditSMSTemplateBtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton AllUsers;
+        protected global::System.Web.UI.WebControls.Button EditSMSTemplateBtn;
 
         /// <summary>
-        /// customUser control.
+        /// ScriptManager1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton customUser;
-
-        /// <summary>
-        /// filterSenderName control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText filterSenderName;
-
-        /// <summary>
-        /// EditSenderFilterBtn control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button EditSenderFilterBtn;
+        protected global::System.Web.UI.ScriptManager ScriptManager1;
 
         /// <summary>
         /// footer control.
@@ -130,14 +112,5 @@ namespace resllerUserB
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::resllerUserB.controls.footerLinks footerLinks;
-
-        /// <summary>
-        /// ScriptManager1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.ScriptManager ScriptManager1;
     }
 }
