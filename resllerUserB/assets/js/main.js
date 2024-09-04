@@ -53,7 +53,7 @@ $(document).ready(function () {
         document.getElementById("hlr-log-link").classList.add("active");
         document.getElementById("hlr-link").classList.add("hover");
         document.getElementById("hlr-link").classList.add("show");
-    } else if (url == '/sms_temp.aspx') {
+    } else if (url == '/sms_temp.aspx' || url == '/edit-sms-template.aspx') {
         document.getElementById("favorites-link").classList.add("active");
         document.getElementById("sms-template-link").classList.add("active");
         document.getElementById("favorites-link").classList.add("hover");
